@@ -460,8 +460,8 @@ static class Status
                 findings = mine.Select(f => new
                 {
                     ecosystem = f.Ecosystem, package = f.Package, version = f.Version, advisory = f.Vulnerability.Advisory, cve = f.Vulnerability.Cve,
-                    severity = f.Severity, summary = f.Vulnerability.Summary, fixedIn = f.Vulnerability.FixedIn, url = f.Vulnerability.Url,
-                    since = history.Since(project.Key, f),
+                    severity = f.Severity, blocking = Severity.Blocks(f.Severity), summary = f.Vulnerability.Summary,
+                    fixedIn = f.Vulnerability.FixedIn, url = f.Vulnerability.Url, since = history.Since(project.Key, f),
                 }),
                 updates = inventory.Packages.Where(p => p.Direct)
                     .Select(p => catalog.Of(p.Ecosystem, p.Name, p.Version))

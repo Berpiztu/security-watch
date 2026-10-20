@@ -15,7 +15,7 @@
 - A `.NET SDK` is checked against .NET's release metadata: every .NET security release after the runtime it bundles is a `security-release` finding, with its CVEs; its newest version is the newest SDK of its band
 - Severity: `unknown`, `low`, `moderate`, `high`, `critical`, `security-release`; a ref is `blocking` with `moderate` or worse; `low` and `unknown` only warn
 - `libraries.json`: `checked`, and each library's `ecosystem`, `name`, `version`, `latest`, `vulnerabilities`, `usedBy` (`project@ref`)
-- `status/<project>.json`: `project`, `checked`, and each ref's `ref`, `type`, `commit`, `sent`, `blocking`, `worst`, `findings` (`ecosystem`, `package`, `version`, `advisory`, `cve`, `severity`, `summary`, `fixedIn`, `url`, `since`), `updates` (direct libraries and the SDK with a newer version), `images`; a project that sends no inventory any more loses its status file
+- `status/<project>.json`: `project`, `checked`, and each ref's `ref`, `type`, `commit`, `sent`, `blocking`, `worst`, `findings` (`ecosystem`, `package`, `version`, `advisory`, `cve`, `severity`, `blocking`, `summary`, `fixedIn`, `url`, `since`), `updates` (direct libraries and the SDK with a newer version), `images`; a project that sends no inventory any more loses its status file
 - `history.json`: one entry per project, library, version and advisory, `opened` the first day seen, `closed` the first day gone. `HISTORY.md` is the same, as a table, newest first
 - Issues: one per blocking finding first seen, none while an open issue has the same title, only with `GH_TOKEN` set
 - Not AOT (`#:property PublishAot=false`): JSON is read and written by reflection
