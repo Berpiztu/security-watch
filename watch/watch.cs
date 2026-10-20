@@ -1,5 +1,9 @@
 #:package YamlDotNet@16.2.1
+#:property PublishAot=false
 
+// Not AOT, as a file-based app is by default: YamlDotNet and the JSON
+// written here are read and written by reflection.
+//
 // security-watch: each project in projects/*.yml, read from its own files at
 // the branches and releases it names, checked against the known
 // vulnerabilities and the newest versions. Writes status/<project>.json,
