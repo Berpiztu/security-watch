@@ -70,6 +70,25 @@ The list is made from what the build restored and asked for: NuGet
 container images. The issue is opened as whoever `gh` is signed in as on
 that machine; GitHub Actions only asks.
 
+## Before a repository is made public
+
+GitHub scans a repository for secrets for free once it is public, and
+stops a push that carries one: Berpiztu's public repositories, and every new
+one, have both on. A private repository is not scanned at all on the free
+plan, so a token in its history comes out the moment it is made public.
+Before that, look at its whole history (every branch, pull request and
+commit) with [client/scan-secrets.py](client/scan-secrets.py):
+
+```powershell
+python -I client/scan-secrets.py Berpiztu/<repository>
+```
+
+It shows every token by its shape (Anthropic, OpenAI, xAI, GitHub, Google,
+AWS, Hugging Face, private keys, OAuth tokens), masked, and the values
+assigned to names such as API_KEY or PASSWORD that look like keys. Each
+secret is revoked at its service and taken out of the history first; only
+then is the repository made public. A folder on this machine works too.
+
 ## What a project reads
 
 ```
