@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-10-20T19:22:00Z",
+  "checked": "2026-10-20T23:35:05Z",
   "refs": [
     {
       "ref": "main",
@@ -89,6 +89,88 @@
       "type": "branch",
       "commit": "f72604b",
       "sent": "2026-10-20T05:18:26Z",
+      "blocking": false,
+      "findings": [],
+      "updates": [
+        {
+          "ecosystem": "NuGet",
+          "package": "coverlet.collector",
+          "version": "6.0.4",
+          "latest": "10.1.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebView.Maui",
+          "version": "10.0.20",
+          "latest": "10.0.110"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Maui.Controls",
+          "version": "10.0.20",
+          "latest": "10.0.110"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.NET.Test.Sdk",
+          "version": "17.14.1",
+          "latest": "18.11.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Playwright",
+          "version": "1.62.0",
+          "latest": "1.63.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "MudBlazor",
+          "version": "9.10.0",
+          "latest": "9.11.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "WixToolset.UI.wixext",
+          "version": "5.0.2",
+          "latest": "7.0.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "WixToolset.Util.wixext",
+          "version": "5.0.2",
+          "latest": "7.0.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "xunit.runner.visualstudio",
+          "version": "3.1.4",
+          "latest": "4.0.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "YamlDotNet",
+          "version": "16.2.1",
+          "latest": "18.1.0"
+        },
+        {
+          "ecosystem": "PyPI",
+          "package": "redis",
+          "version": "5.0.8",
+          "latest": "8.1.0"
+        }
+      ],
+      "images": [
+        "nginx:stable",
+        "nvidia/cuda:12.8.1-devel-ubuntu24.04",
+        "python:3.12-slim",
+        "redis:7-alpine"
+      ]
+    },
+    {
+      "ref": "v1.6.4.8",
+      "type": "release",
+      "commit": "48fdfef",
+      "sent": "2026-10-20T23:34:15Z",
       "blocking": false,
       "findings": [],
       "updates": [
