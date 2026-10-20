@@ -18,7 +18,7 @@
 - `libraries.json`: `checked`, and each library's `ecosystem`, `name`, `version`, `latest`, `vulnerabilities`, `usedBy` (`project@ref`)
 - `status/<project>.json`: `project`, `checked`, and each ref's `ref`, `type`, `commit`, `sent`, `blocking`, `worst`, `findings` (`ecosystem`, `package`, `version`, `advisory`, `cve`, `severity`, `blocking`, `summary`, `fixedIn`, `url`, `since`), `updates` (direct libraries and the SDK with a newer version), `images`; a project that sends no inventory any more loses its status file
 - `history.json`: one entry per project, library, version and advisory, `opened` the first day seen, `closed` the first day gone. `HISTORY.md` is the same, as a table, newest first
-- Issues: one per blocking finding first seen, none while an open issue has the same title; inventory issues taken and findings opened only with `GH_TOKEN` set
+- Issues: one alarm per blocking finding first seen, none while an open issue has the same title; an alarm closed, with a comment, the first run its finding is gone; only the watcher's own alarms are closed; inventory issues taken and alarms opened or closed only with `GH_TOKEN` set
 - Not AOT (`#:property PublishAot=false`): JSON is read and written by reflection
 
 ## Work Guidance

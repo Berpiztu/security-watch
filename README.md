@@ -66,7 +66,8 @@ itself, and its images.
 - [HISTORY.md](HISTORY.md): every finding, newest first, from the day it
   was opened to the day it was closed.
 - A blocking finding seen for the first time opens an **issue**, and GitHub
-  mails it.
+  mails it; the issue is closed, with a comment, as soon as the finding is
+  gone, so the open issues are always the open problems.
 
 ## Rules
 

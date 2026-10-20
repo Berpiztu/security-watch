@@ -61,6 +61,7 @@ foreach (var project in inventories.GroupBy(i => i.Project).OrderBy(g => g.Key))
 history.Save(Path.Combine(root, "history.json"));
 File.WriteAllText(Path.Combine(root, "HISTORY.md"), history.Markdown());
 await Receiver.AnswerAsync(received, findingsByProject);
+await Issues.CloseGoneAsync(findingsByProject, token);
 
 // ------------------------------------------------------------- inventories --
 
@@ -588,7 +589,7 @@ static class Issues
 
             {v.Summary}
             """;
-        var title = $"{project}: {finding.Package} {finding.Version}, {v.Severity} ({v.Advisory})";
+        var title = TitleOf(project, finding);
         // One open issue per finding, whatever the history says: a history
         // started over does not mail the same finding twice.
         if ((await Gh.RunAsync("issue", "list", "--state", "open", "--limit", "500", "--json", "title", "--jq", ".[].title")).Split('\n').Contains(title))
@@ -598,6 +599,38 @@ static class Issues
 
         await Gh.RunAsync("issue", "create", "--title", title, "--body", body);
     }
+
+    /// <summary>
+    /// Every alarm this watcher opened whose finding is gone, closed with a
+    /// word on why: no branch or release watched uses that version any more.
+    /// An alarm stays open exactly as long as its finding does, so they never
+    /// pile up. Issues opened by anyone else are never touched.
+    /// </summary>
+    public static async Task CloseGoneAsync(Dictionary<string, List<Finding>> findings, string? token)
+    {
+        if (token is not { Length: > 0 })
+        {
+            return;
+        }
+
+        var current = findings.SelectMany(p => p.Value.Where(f => Severity.Blocks(f.Severity)).Select(f => TitleOf(p.Key, f))).ToHashSet();
+        var alarms = JsonNode.Parse(await Gh.RunAsync("issue", "list", "--state", "open", "--author", "app/github-actions", "--limit", "500", "--json", "number,title"))?.AsArray() ?? [];
+        foreach (var alarm in alarms)
+        {
+            var title = (string?)alarm?["title"] ?? "";
+            if (title.StartsWith("inventory:", StringComparison.OrdinalIgnoreCase) || current.Contains(title))
+            {
+                continue;
+            }
+
+            Console.WriteLine($"issue #{(int?)alarm?["number"]} closed: {title}");
+            await Gh.RunAsync("issue", "close", ((int?)alarm?["number"] ?? 0).ToString(), "--comment",
+                "Gone: none of the branches and releases watched uses this version any more.");
+        }
+    }
+
+    static string TitleOf(string project, Finding finding) =>
+        $"{project}: {finding.Package} {finding.Version}, {finding.Vulnerability.Severity} ({finding.Vulnerability.Advisory})";
 }
 
 static class Gh
