@@ -17,15 +17,20 @@
     Test-SecurityWatch, first thing in a build: the status of the ref being
     built. A finding moderate or worse stops the build; a lower one is
     written as a warning. When security-watch cannot be reached, the person
-    is asked whether to go on; a build on GitHub Actions stops.
+    is asked whether to go on; a build on GitHub Actions stops. A release
+    script calls it with -Release: what it releases must be the list
+    security-watch checked, so a list it has not answered yet is waited for,
+    and no list at all stops it until the build has sent one.
 
     Send-SecurityWatchInventory, once a build succeeded: the list of every
     library the checkout uses, sent only when it differs from the one
     security-watch has, and only for main, develop and release tags, as an
     issue in security-watch opened by whoever gh is signed in as on this
-    machine, as they would open it by hand: no token of its own. On GitHub
-    Actions it sends nothing: a project's release script sends each
-    release's list when it tags it.
+    machine, as they would open it by hand: no token of its own. It then
+    waits for security-watch's answer, up to three minutes, and says it: a
+    finding moderate or worse stops there. On GitHub Actions it sends
+    nothing: a project's release script sends each release's list when it
+    tags it.
 #>
 
 if (-not (Get-Variable -Name SecurityWatchProject -ValueOnly -ErrorAction SilentlyContinue)) {
@@ -48,39 +53,57 @@ function Get-SecurityWatchRef {
     return [pscustomobject]@{ Name = "$branch"; Type = "branch" }
 }
 
-function Test-SecurityWatch {
+function Get-SecurityWatchHeaders {
     <#
-    Asks security-watch about the ref being built, or the one named, before
-    anything is built: stops on a finding moderate or worse, warns on a lower
-    one, and asks whether to go on when security-watch cannot be reached.
+    The API's headers, with gh's sign-in when there is one: the API answers
+    with what security-watch holds now, where raw.githubusercontent.com keeps
+    a copy for minutes, and a signed-in caller is allowed far more questions.
     #>
-    param([string]$Ref)
-    if (-not $Ref) { $Ref = (Get-SecurityWatchRef).Name }
-    $url = "https://raw.githubusercontent.com/$SecurityWatchRepository/main/status/$SecurityWatchProject.json"
+    $headers = @{ Accept = "application/vnd.github+json"; "User-Agent" = $SecurityWatchProject }
+    $login = if (Get-Command gh -ErrorAction SilentlyContinue) { gh auth token 2>$null }
+    if ($login) { $headers.Authorization = "Bearer $login" }
+    return $headers
+}
+
+function Get-SecurityWatchFile {
+    <# One of security-watch's files as main holds it now, read as JSON; null when it is not there. Throws when security-watch cannot be reached. #>
+    param([Parameter(Mandatory = $true)][string]$Path)
+    $headers = Get-SecurityWatchHeaders
+    $headers.Accept = "application/vnd.github.raw+json"
     try {
-        $status = Invoke-RestMethod -Uri $url -TimeoutSec 20
+        $answer = Invoke-RestMethod -Uri "https://api.github.com/repos/$SecurityWatchRepository/contents/$Path" -Headers $headers -TimeoutSec 20
     } catch {
-        if ($_.Exception.Response -and $_.Exception.Response.StatusCode.value__ -eq 404) {
-            Write-Host "security-watch: no status for $SecurityWatchProject yet; its list is sent after this build." -ForegroundColor Yellow
-            return
-        }
-        $reason = $_.Exception.Message
-        if ($env:GITHUB_ACTIONS -eq "true") {
-            throw "security-watch could not be reached ($reason): the build stops, since nothing says its libraries are safe."
-        }
-        $answer = Read-Host "security-watch could not be reached ($reason). Build anyway, without knowing of a new vulnerability? (y/n)"
-        if ($answer -notmatch '^(y|yes|s|si)$') { throw "Stopped: security-watch could not be reached ($reason)." }
-        Write-Warning "security-watch could not be reached ($reason); built without asking it."
-        return
+        if ($_.Exception.Response -and $_.Exception.Response.StatusCode.value__ -eq 404) { return $null }
+        throw
     }
+    if ($answer -is [string]) { return $answer | ConvertFrom-Json }
+    return $answer
+}
 
-    $mine = @($status.refs) | Where-Object { $_.ref -eq $Ref } | Select-Object -First 1
-    if (-not $mine) {
-        Write-Host "security-watch: no list of $Ref yet; it is sent after this build." -ForegroundColor Yellow
-        return
+function Test-SecurityWatchSame {
+    <# The same libraries, whenever and from whichever commit they were sent, are the same list. #>
+    param($First, $Second)
+    if (-not $First -or -not $Second) { return $false }
+    $sameness = { param($list) ConvertTo-Json -Compress -Depth 5 @{ packages = @($list.packages | ForEach-Object { "$($_.ecosystem)|$($_.name)|$($_.version)|$($_.direct)" }); dotnetSdk = "$($list.dotnetSdk)"; images = @($list.images) } }
+    return (& $sameness $First) -eq (& $sameness $Second)
+}
+
+function Wait-SecurityWatchAnswer {
+    <# Waits for security-watch to answer an inventory issue (it closes it once checked), up to three minutes; true when it did. #>
+    param([Parameter(Mandatory = $true)][int]$Issue)
+    $deadline = (Get-Date).AddMinutes(3)
+    while ((Get-Date) -lt $deadline) {
+        $state = (Invoke-RestMethod -Uri "https://api.github.com/repos/$SecurityWatchRepository/issues/$Issue" -Headers (Get-SecurityWatchHeaders) -TimeoutSec 20).state
+        if ($state -eq "closed") { return $true }
+        Start-Sleep -Seconds 5
     }
+    return $false
+}
 
-    $findings = @($mine.findings)
+function Assert-SecurityWatchRef {
+    <# What security-watch says of a ref: a lower finding warns, one moderate or worse stops, with each one and the version that fixes it. #>
+    param([Parameter(Mandatory = $true)]$Mine, [Parameter(Mandatory = $true)][string]$Ref)
+    $findings = @($Mine.findings)
     foreach ($finding in $findings | Where-Object { -not $_.blocking }) {
         Write-Warning "security-watch: $($finding.package) $($finding.version) ($($finding.ecosystem)), $($finding.severity): $($finding.advisory) $($finding.cve), fixed in $(if ($finding.fixedIn) { $finding.fixedIn } else { 'no version yet' })."
     }
@@ -90,6 +113,55 @@ function Test-SecurityWatch {
         throw "security-watch: $Ref uses $($blocking.Count) librar$(if ($blocking.Count -eq 1) { 'y' } else { 'ies' }) with a vulnerability moderate or worse:`n$($lines -join "`n")`nPatch it and build again."
     }
     Write-Host "security-watch: $Ref has no known vulnerability that stops a build." -ForegroundColor Green
+}
+
+function Test-SecurityWatch {
+    <#
+    Asks security-watch about the ref being built, or the one named: stops on
+    a finding moderate or worse, warns on a lower one, and asks whether to go
+    on when security-watch cannot be reached. With -Release, what is about to
+    be released must be what security-watch checked: the list this checkout
+    builds has to be the one it holds; one it has not answered yet is waited
+    for, and none at all stops the release, since the build that sends it
+    comes first.
+    #>
+    param([string]$Ref, [switch]$Release)
+    if (-not $Ref) { $Ref = (Get-SecurityWatchRef).Name }
+    try {
+        $status = Get-SecurityWatchFile "status/$SecurityWatchProject.json"
+        if ($Release) {
+            $here = Get-SecurityWatchInventory -Ref ([pscustomobject]@{ Name = $Ref; Type = "branch" })
+            if (-not (Test-SecurityWatchSame (Get-SecurityWatchFile "inventories/$SecurityWatchProject/$Ref.json") $here)) {
+                $title = "inventory: $SecurityWatchProject@$Ref"
+                $pending = @(Invoke-RestMethod -Uri "https://api.github.com/repos/$SecurityWatchRepository/issues?state=open&per_page=100" -Headers (Get-SecurityWatchHeaders) -TimeoutSec 20) |
+                    Where-Object { $_.title -eq $title } | Select-Object -First 1
+                if (-not $pending) {
+                    throw "security-watch has no list of $Ref as this checkout builds it: build first (the build sends it), then release."
+                }
+                Write-Host "security-watch: the list of $Ref the build sent is being checked ($($pending.html_url)); waiting for its answer..." -ForegroundColor Yellow
+                if (-not (Wait-SecurityWatchAnswer $pending.number)) {
+                    throw "security-watch has not answered yet ($($pending.html_url)): release again in a minute."
+                }
+                $status = Get-SecurityWatchFile "status/$SecurityWatchProject.json"
+            }
+        }
+    } catch [System.Net.Http.HttpRequestException], [System.Net.WebException] {
+        $reason = $_.Exception.Message
+        if ($env:GITHUB_ACTIONS -eq "true") {
+            throw "security-watch could not be reached ($reason): the build stops, since nothing says its libraries are safe."
+        }
+        $answer = Read-Host "security-watch could not be reached ($reason). Go on anyway, without knowing of a new vulnerability? (y/n)"
+        if ($answer -notmatch '^(y|yes|s|si)$') { throw "Stopped: security-watch could not be reached ($reason)." }
+        Write-Warning "security-watch could not be reached ($reason); went on without asking it."
+        return
+    }
+
+    $mine = if ($status) { @($status.refs) | Where-Object { $_.ref -eq $Ref } | Select-Object -First 1 }
+    if (-not $mine) {
+        Write-Host "security-watch: no list of $Ref yet; it is sent after this build." -ForegroundColor Yellow
+        return
+    }
+    Assert-SecurityWatchRef -Mine $mine -Ref $Ref
 }
 
 function Get-SecurityWatchInventory {
@@ -206,20 +278,14 @@ function Send-SecurityWatchInventory {
     }
 
     $inventory = Get-SecurityWatchInventory -Ref $Ref
-
-    # The same libraries, whenever and from whichever commit they were sent, are the same list.
-    $sameness = { param($list) ConvertTo-Json -Compress -Depth 5 @{ packages = @($list.packages | ForEach-Object { "$($_.ecosystem)|$($_.name)|$($_.version)|$($_.direct)" }); dotnetSdk = "$($list.dotnetSdk)"; images = @($list.images) } }
-    $known = "https://raw.githubusercontent.com/$SecurityWatchRepository/main/inventories/$SecurityWatchProject/$($Ref.Name).json"
     try {
-        if ((& $sameness (Invoke-RestMethod -Uri $known -TimeoutSec 20)) -eq (& $sameness $inventory)) {
+        if (Test-SecurityWatchSame (Get-SecurityWatchFile "inventories/$SecurityWatchProject/$($Ref.Name).json") $inventory) {
             Write-Host "security-watch already has this list of $($Ref.Name): nothing sent." -ForegroundColor DarkGray
             return
         }
     } catch {
-        if (-not ($_.Exception.Response -and $_.Exception.Response.StatusCode.value__ -eq 404)) {
-            Write-Warning "security-watch could not be read ($($_.Exception.Message)): the list of $($Ref.Name) was not sent."
-            return
-        }
+        Write-Warning "security-watch could not be read ($($_.Exception.Message)): the list of $($Ref.Name) was not sent."
+        return
     }
 
     # Opened as the person signed in to gh here, as they would open it by
@@ -244,8 +310,17 @@ function Send-SecurityWatchInventory {
     try {
         $opened = Invoke-RestMethod -Method Post -Uri "https://api.github.com/repos/$SecurityWatchRepository/issues" -Headers $headers `
             -ContentType "application/json; charset=utf-8" -Body ([Text.Encoding]::UTF8.GetBytes((ConvertTo-Json $issue))) -TimeoutSec 30
-        Write-Host "security-watch: the list of $($Ref.Name) was sent ($(@($inventory.packages).Count) libraries, $($opened.html_url)); it is checked within minutes." -ForegroundColor Green
+        Write-Host "security-watch: the list of $($Ref.Name) was sent ($(@($inventory.packages).Count) libraries, $($opened.html_url)); waiting for its answer..." -ForegroundColor Cyan
     } catch {
         Write-Warning "security-watch: the list of $($Ref.Name) could not be sent ($($_.Exception.Message))."
+        return
     }
+
+    # The build ends knowing what it built: the answer is waited for, and said.
+    if (-not (Wait-SecurityWatchAnswer $opened.number)) {
+        Write-Warning "security-watch has not answered yet ($($opened.html_url)): the next build or release asks it."
+        return
+    }
+    $mine = @((Get-SecurityWatchFile "status/$SecurityWatchProject.json").refs) | Where-Object { $_.ref -eq $Ref.Name } | Select-Object -First 1
+    if ($mine) { Assert-SecurityWatchRef -Mine $mine -Ref $Ref.Name }
 }

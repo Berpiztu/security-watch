@@ -62,8 +62,11 @@ the others it knows.
    ```
 
 3. Its build scripts call `Test-SecurityWatch` first and
-   `Send-SecurityWatchInventory` once built; its release script calls
-   `Send-SecurityWatchInventory` with the release's tag when it tags it.
+   `Send-SecurityWatchInventory` once built, which waits for the answer and
+   says it; its release script calls `Test-SecurityWatch -Release` first,
+   which stops until the list it is about to release has been checked (a
+   build comes first), and `Send-SecurityWatchInventory` with the release's
+   tag when it tags it.
 
 The list is made from what the build restored and asked for: NuGet
 (transitive ones included), pinned requirements, the .NET SDK and the
