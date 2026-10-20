@@ -130,7 +130,9 @@ function Get-SecurityWatchInventory {
     }
 
     foreach ($project in $tracked | Where-Object { $_ -like "*.csproj" }) {
-        $assets = Join-Path $root (Join-Path (Split-Path -Parent $project) "obj\project.assets.json")
+        # A project at the repository's root has no folder of its own: its obj\ is the root's.
+        $folder = Split-Path -Parent $project
+        $assets = Join-Path $root (Join-Path $(if ($folder) { $folder } else { "." }) "obj\project.assets.json")
         if (-not (Test-Path -LiteralPath $assets)) { continue }
         foreach ($library in ([IO.File]::ReadAllText($assets) | ConvertFrom-Json).libraries.PSObject.Properties) {
             if ($library.Value.type -ne "package") { continue }
