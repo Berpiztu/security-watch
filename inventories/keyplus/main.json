@@ -1,0 +1,17 @@
+{
+  "project": "keyplus",
+  "ref": "main",
+  "type": "branch",
+  "commit": "58e60fe",
+  "sent": "2026-10-20T06:15:03Z",
+  "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.13",
+      "direct": false
+    }
+  ],
+  "dotnetSdk": "10.0.402",
+  "images": []
+}
