@@ -1,5 +1,12 @@
 # DOX framework
 
+> This repository's AGENTS.md files follow **DOX**, used from
+> [Iosub-ai/dox](https://github.com/Iosub-ai/dox), a fork of
+> [agent0ai/dox](https://github.com/agent0ai/dox) by
+> [Agent Zero](https://www.agent-zero.ai/). The DOX text below is theirs,
+> under the [MIT License](https://github.com/Iosub-ai/dox?tab=License-1-ov-file):
+> Copyright (c) 2026 Agent Zero.
+
 - DOX is highly performant AGENTS.md hierarchy installed here
 - Agent must follow DOX instructions across any edits
 
