@@ -614,7 +614,7 @@ static class Issues
         }
 
         var current = findings.SelectMany(p => p.Value.Where(f => Severity.Blocks(f.Severity)).Select(f => TitleOf(p.Key, f))).ToHashSet();
-        var alarms = JsonNode.Parse(await Gh.RunAsync("issue", "list", "--state", "open", "--author", "app/github-actions", "--limit", "500", "--json", "number,title"))?.AsArray() ?? [];
+        var alarms = JsonNode.Parse(await Gh.RunAsync("issue", "list", "--state", "open", "--author", "github-actions[bot]", "--limit", "500", "--json", "number,title"))?.AsArray() ?? [];
         foreach (var alarm in alarms)
         {
             var title = (string?)alarm?["title"] ?? "";
