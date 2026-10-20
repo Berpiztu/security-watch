@@ -16,7 +16,6 @@
 - `Send-SecurityWatchInventory [-Ref]`: once a build succeeded; only for `main`, `develop` and release tags, never on GitHub Actions; sends only when the list differs from `inventories/<project>/<ref>.json`, ignoring `sent` and `commit`; opens the inventory issue as whoever `gh` is signed in as, with no token of its own
 - The list: NuGet from every restored project's `obj/project.assets.json` (transitive ones included) and the versions asked for (`Directory.Packages.props`, or each project file's `PackageReference`); PyPI from every tracked requirements file's pinned lines; the SDK from `global.json`, or the one installed; images from every tracked Dockerfile and Compose file
 - A project's release script sends its release's list itself, when it tags it
-
 - `scan-secrets.py <owner/repo | folder>`: every branch, pull request and commit; tokens by their shape, masked, and values assigned to key-like names that mix letters and digits with no dot (examples such as `your_..._here` left out); exits 1 when a token is found; a GitHub repository is mirror-cloned apart with this machine's git sign-in
 
 ## Work Guidance
