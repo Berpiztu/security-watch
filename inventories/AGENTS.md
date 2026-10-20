@@ -2,11 +2,11 @@
 
 ## Purpose
 
-- What each project sends: `<project>/<ref>.json`, every library one of its branches or releases uses, at its exact version
+- What each project sent: `<project>/<ref>.json`, every library one of its branches or releases uses, at its exact version, saved by the watcher from the project's inventory issue
 
 ## Ownership
 
-- The inventory's shape; the projects own their content and send it themselves, with a token that writes to this repository alone
+- The inventory's shape; the projects own their content and send it themselves, as an issue titled `inventory: <project>@<ref>` with the JSON in a ```json block, with a token that can open issues and nothing else
 
 ## Local Contracts
 
@@ -22,11 +22,11 @@
 ## Work Guidance
 
 - A project sends only when its list changed: it compares what it would send with the file here, without `sent` and `commit`
-- Nobody edits an inventory by hand
+- Nobody edits an inventory by hand: the watcher writes every file here
 
 ## Verification
 
-- A push here starts the Watch workflow; the project's status file shows what was read within minutes
+- An inventory issue starts the Watch workflow, which answers it (taken, with what stops a build, or why it was refused) and closes it within minutes
 
 ## Child DOX Index
 

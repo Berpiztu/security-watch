@@ -1,20 +1,24 @@
 name: Watch
 
-# Every inventory the projects sent, each library in them checked once:
-# libraries.json, status/<project>.json, history.json and HISTORY.md written
-# and committed, and an issue opened for each blocking finding first seen.
-# Every morning, for the advisories published since; within minutes of a
-# project sending a new inventory, so its next build already knows; by hand;
-# and whenever the watcher changes. A commit made here with the workflow's
+# The inventories the projects sent as issues taken in and answered, then
+# every inventory's libraries checked once: libraries.json,
+# status/<project>.json, history.json and HISTORY.md written and committed,
+# and an issue opened for each blocking finding first seen. Every morning,
+# for the advisories published since; as soon as a project opens an
+# inventory issue, so its next build already knows; by hand; and whenever
+# the watcher changes. A commit or an issue made here with the workflow's
 # token starts no workflow, so the run never starts itself again.
 on:
   schedule:
     - cron: '23 5 * * *'
   workflow_dispatch:
+  issues:
+    types: [opened]
   push:
     branches: [main]
     paths:
-      - inventories/**
+      - projects.txt
+      - submitters.txt
       - watch/**
       - .github/workflows/watch.yml
 
@@ -23,13 +27,16 @@ permissions:
   issues: write
 
 # One run at a time, the newest waiting: inventories sent together are
-# checked together by the run that follows them.
+# taken together by the run that follows them, each run taking every open
+# inventory issue, so one whose own run was skipped is not lost.
 concurrency:
   group: watch
   cancel-in-progress: false
 
 jobs:
   watch:
+    # An issue that is not an inventory (a finding, a question) starts nothing.
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'inventory:')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

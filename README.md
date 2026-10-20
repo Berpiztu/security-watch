@@ -11,14 +11,19 @@ libraries travels.
 
 ## How it works
 
-1. **A project sends its list** on every build, when the list changed:
-   `inventories/<project>/<ref>.json`, every library its branch or release
-   uses at its exact version, the transitive ones included, its .NET SDK and
-   its images. It writes with a token that writes to this repository alone.
+1. **A project sends its list** on every build, when the list changed: an
+   issue titled `inventory: <project>@<ref>`, every library its branch or
+   release uses at its exact version, the transitive ones included, its
+   .NET SDK and its images, in a ```json block. Its token can open issues
+   and nothing else: no project can write a file here. The watcher takes
+   the list in, saves it to `inventories/<project>/<ref>.json`, answers the
+   issue with the result and closes it; only from the accounts in
+   [submitters.txt](submitters.txt), for the projects in
+   [projects.txt](projects.txt).
 2. **The watcher checks every library once**: every list read, each library
    (ecosystem, name, version) asked of [OSV.dev](https://osv.dev) once, each
    name's newest version read once from its registry, each .NET SDK checked
-   against .NET's release metadata. It runs within minutes of a new list, and
+   against .NET's release metadata. It runs as soon as a list arrives, and
    every morning for the advisories published since.
 3. **A project asks before every build**: its `status/<project>.json`, the
    ref it is building, and stops on anything moderate or worse.
@@ -66,13 +71,16 @@ itself, and its images.
 
 - **Nothing here names a client**, a server, a domain, an address or a
   person: a project's name and its libraries only.
-- **No secrets**: a project's token lives in that project, never here.
+- **No secrets**: a project's token lives in that project, never here, and
+  can only open issues.
+- **Who may send**: [submitters.txt](submitters.txt) and
+  [projects.txt](projects.txt), changed by Berpiztu alone.
 
 ## Run it
 
-[.github/workflows/watch.yml](.github/workflows/watch.yml): on every list
-sent, every morning, by hand from the Actions tab, and when the watcher
-changes. By hand on a machine, from this folder (no issue is opened without
+[.github/workflows/watch.yml](.github/workflows/watch.yml): on every
+inventory issue, every morning, by hand from the Actions tab, and when the
+watcher or the lists of who may send change. By hand on a machine, from this folder (no issue is opened without
 `GH_TOKEN`):
 
 ```powershell

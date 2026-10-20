@@ -86,14 +86,15 @@ Default section order:
 - security-watch checks the libraries Berpiztu's projects use against the known vulnerabilities and the newest versions: each project sends its own list, every library is checked once for all of them, and each project reads its status before every build ([README.md](README.md))
 - It reads no project: it has access to none, and needs none
 - Public: anyone reads it, only Berpiztu changes it
-- Layout: `inventories/` what the projects send; `watch/` the watcher; `libraries.json`, `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
+- Layout: `projects.txt` and `submitters.txt` who may send; `inventories/` what the projects sent; `watch/` the watcher; `libraries.json`, `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
 - The root owns the README, the workflow and the rules below
 
 ## Rules
 
 - English for code, comments, docs and commit messages
 - Nothing here names a client, a server, a domain, an address or a person: a project's name and its dependencies only
-- No secrets here: the projects write their inventories with a token of their own that writes to this repository alone, and the watcher needs only the workflow's token
+- No secrets here, and no project writes here: a project sends its inventory as an issue, with a token that can open issues and nothing else; the watcher, with the workflow's token alone, takes it in, answers it and closes it
+- Only Berpiztu changes `projects.txt` and `submitters.txt`: an inventory from anyone else, or for a project not listed, is refused
 - Commits by people are `Iosu Buenetxea (Berpiztu) <iosub@berpiztu.ai>`, pushed as `Iosub-ai`; the work address never appears. The workflow commits its results as `github-actions[bot]`
 - A version is checked at its source before it is written (a package, an image, an action), never from memory
 - The watcher is verified on GitHub (the Watch workflow, by hand or on push), never by building or running it on the owner's machine

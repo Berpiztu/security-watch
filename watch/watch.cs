@@ -25,6 +25,10 @@ var today = DateTime.UtcNow.ToString("yyyy-MM-dd");
 var token = Environment.GetEnvironmentVariable("GH_TOKEN");
 var web = new Web();
 
+// The inventories the projects sent as issues since the last run, saved
+// first, so this run checks them.
+var received = await Receiver.TakeAsync(root, token);
+
 var inventories = Inventories.Load(Path.Combine(root, "inventories"));
 Console.WriteLine($"{inventories.Count} inventories from {inventories.Select(i => i.Project).Distinct().Count()} projects");
 
@@ -40,9 +44,10 @@ foreach (var stale in Directory.GetFiles(statusFolder, "*.json").Where(f => inve
     File.Delete(stale);
 }
 
+var findingsByProject = new Dictionary<string, List<Finding>>();
 foreach (var project in inventories.GroupBy(i => i.Project).OrderBy(g => g.Key))
 {
-    var findings = catalog.FindingsOf(project);
+    var findings = findingsByProject[project.Key] = catalog.FindingsOf(project);
     var opened = history.Record(project.Key, findings, today);
     Status.Write(Path.Combine(statusFolder, $"{project.Key}.json"), project, catalog, history);
     foreach (var finding in opened.Where(f => Severity.Blocks(f.Severity)))
@@ -55,6 +60,7 @@ foreach (var project in inventories.GroupBy(i => i.Project).OrderBy(g => g.Key))
 
 history.Save(Path.Combine(root, "history.json"));
 File.WriteAllText(Path.Combine(root, "HISTORY.md"), history.Markdown());
+await Receiver.AnswerAsync(received, findingsByProject);
 
 // ------------------------------------------------------------- inventories --
 
@@ -585,15 +591,18 @@ static class Issues
         var title = $"{project}: {finding.Package} {finding.Version}, {v.Severity} ({v.Advisory})";
         // One open issue per finding, whatever the history says: a history
         // started over does not mail the same finding twice.
-        if ((await GhAsync("issue", "list", "--state", "open", "--limit", "500", "--json", "title", "--jq", ".[].title")).Split('\n').Contains(title))
+        if ((await Gh.RunAsync("issue", "list", "--state", "open", "--limit", "500", "--json", "title", "--jq", ".[].title")).Split('\n').Contains(title))
         {
             return;
         }
 
-        await GhAsync("issue", "create", "--title", title, "--body", body);
+        await Gh.RunAsync("issue", "create", "--title", title, "--body", body);
     }
+}
 
-    static async Task<string> GhAsync(params string[] arguments)
+static class Gh
+{
+    public static async Task<string> RunAsync(params string[] arguments)
     {
         var start = new ProcessStartInfo("gh") { RedirectStandardOutput = true };
         foreach (var argument in arguments)
@@ -605,5 +614,138 @@ static class Issues
         var output = await process.StandardOutput.ReadToEndAsync();
         await process.WaitForExitAsync();
         return output;
+    }
+}
+
+// ----------------------------------------------------------------- receiver --
+
+/// <summary>An inventory issue taken in: the issue, and the project and ref it was for, or why it was refused.</summary>
+sealed record Receipt(int Issue, string Project, string Ref, string? Refused, int Libraries);
+
+/// <summary>
+/// The projects send their inventories as issues titled
+/// <c>inventory: &lt;project&gt;@&lt;ref&gt;</c>, the JSON in a <c>```json</c>
+/// block, with a token that can open issues and nothing else: none of them
+/// can write a file here. Every open one is taken at each run, whichever
+/// event started it, so one whose own run was skipped is not lost. Only a
+/// submitter listed in <c>submitters.txt</c>, for a project listed in
+/// <c>projects.txt</c>, is accepted: the repository is public, and anyone
+/// can open an issue.
+/// </summary>
+static class Receiver
+{
+    const string Prefix = "inventory:";
+
+    public static async Task<List<Receipt>> TakeAsync(string root, string? token)
+    {
+        var receipts = new List<Receipt>();
+        if (token is not { Length: > 0 })
+        {
+            return receipts;
+        }
+
+        var submitters = Listed(Path.Combine(root, "submitters.txt"));
+        var projects = Listed(Path.Combine(root, "projects.txt"));
+        var open = JsonNode.Parse(await Gh.RunAsync("issue", "list", "--state", "open", "--limit", "200", "--search", $"\"{Prefix}\" in:title",
+            "--json", "number,title,body,author"))?.AsArray() ?? [];
+        foreach (var issue in open.Where(i => ((string?)i?["title"] ?? "").StartsWith(Prefix, StringComparison.OrdinalIgnoreCase)))
+        {
+            var number = (int?)issue?["number"] ?? 0;
+            var author = (string?)issue?["author"]?["login"] ?? "";
+            var title = ((string?)issue?["title"] ?? "")[Prefix.Length..].Trim();
+            var at = title.LastIndexOf('@');
+            var project = at > 0 ? title[..at] : title;
+            var reference = at > 0 ? title[(at + 1)..] : "";
+            Inventory? inventory = null;
+            var refused = !submitters.Contains(author) ? $"{author} is not among the submitters (submitters.txt)."
+                : !projects.Contains(project) ? $"{project} is not among the projects watched (projects.txt)."
+                : Validate((string?)issue?["body"] ?? "", project, reference, out inventory) is { } invalid ? invalid
+                : null;
+            if (refused is null)
+            {
+                var folder = Path.Combine(root, "inventories", project);
+                Directory.CreateDirectory(folder);
+                File.WriteAllText(Path.Combine(folder, $"{reference}.json"), JsonSerializer.Serialize(inventory, Json.Options) + "\n");
+            }
+
+            Console.WriteLine($"issue #{number} {project}@{reference}: {refused ?? "taken"}");
+            receipts.Add(new Receipt(number, project, reference, refused, inventory?.Packages.Count ?? 0));
+        }
+
+        return receipts;
+    }
+
+    /// <summary>Each issue answered with what became of it, and closed.</summary>
+    public static async Task AnswerAsync(List<Receipt> receipts, Dictionary<string, List<Finding>> findings)
+    {
+        foreach (var receipt in receipts)
+        {
+            string answer;
+            if (receipt.Refused is { } why)
+            {
+                answer = $"Not taken: {why}";
+            }
+            else
+            {
+                var mine = (findings.GetValueOrDefault(receipt.Project) ?? []).Where(f => f.Where.Contains(receipt.Ref)).ToList();
+                var blocking = mine.Count(f => Severity.Blocks(f.Severity));
+                answer = $"Taken: {receipt.Libraries} libraries of {receipt.Ref}, checked. "
+                    + (blocking > 0 ? $"**{blocking} stop a build** (moderate or worse)" : "Nothing stops a build")
+                    + (mine.Count > blocking ? $", {mine.Count - blocking} only warn." : ".")
+                    + $" Status: https://github.com/{Environment.GetEnvironmentVariable("GITHUB_REPOSITORY")}/blob/main/status/{receipt.Project}.json";
+            }
+
+            await Gh.RunAsync("issue", "close", receipt.Issue.ToString(), "--comment", answer);
+        }
+    }
+
+    static HashSet<string> Listed(string file) => File.Exists(file)
+        ? [.. File.ReadAllLines(file).Select(l => l.Split('#')[0].Trim()).Where(l => l.Length > 0)]
+        : [];
+
+    /// <summary>The inventory in the issue's body, when it is one, for the project and ref its title names; why not, otherwise.</summary>
+    static string? Validate(string body, string project, string reference, out Inventory? inventory)
+    {
+        inventory = null;
+        if (!System.Text.RegularExpressions.Regex.IsMatch(reference, @"^[A-Za-z0-9][A-Za-z0-9._-]{0,99}$"))
+        {
+            return "the ref in the title is not a branch or tag name.";
+        }
+
+        var start = body.IndexOf("```json", StringComparison.Ordinal);
+        var end = start < 0 ? -1 : body.IndexOf("```", start + 7, StringComparison.Ordinal);
+        if (end < 0)
+        {
+            return "the body holds no ```json block.";
+        }
+
+        try
+        {
+            inventory = JsonSerializer.Deserialize<Inventory>(body[(start + 7)..end], Json.Options);
+        }
+        catch (JsonException error)
+        {
+            return $"the JSON does not read: {error.Message}";
+        }
+
+        if (inventory is null || inventory.Project != project || inventory.Ref != reference)
+        {
+            return "the inventory's project and ref are not the title's.";
+        }
+
+        if (inventory.Type is not ("branch" or "release"))
+        {
+            return "type is neither branch nor release.";
+        }
+
+        static bool Plain(string? text) => text is { Length: > 0 and <= 200 } && !text.Any(char.IsControl);
+        if (inventory.Packages.Count > 20000 || inventory.Packages.Any(p => !Plain(p.Ecosystem) || !Plain(p.Name) || !Plain(p.Version))
+            || inventory.Images.Count > 500 || inventory.Images.Any(i => !Plain(i))
+            || (inventory.DotnetSdk is { } sdk && !Plain(sdk)))
+        {
+            return "a library, an image or the SDK is empty, too long, or not plain text.";
+        }
+
+        return null;
     }
 }

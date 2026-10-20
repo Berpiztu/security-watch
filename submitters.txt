@@ -1,0 +1,4 @@
+# The GitHub accounts whose inventory issues are taken, one per line: the
+# owners of the tokens the projects send with. Anyone can open an issue on a
+# public repository; any other author's inventory is refused.
+Iosub-ai
