@@ -1,12 +1,22 @@
 {
   "project": "keyplus",
-  "checked": "2026-10-20T06:20:23Z",
+  "checked": "2026-10-20T06:25:10Z",
   "refs": [
     {
       "ref": "main",
       "type": "branch",
       "commit": "58e60fe",
       "sent": "2026-10-20T06:15:03Z",
+      "blocking": false,
+      "findings": [],
+      "updates": [],
+      "images": []
+    },
+    {
+      "ref": "v1.0.43",
+      "type": "release",
+      "commit": "db129a3",
+      "sent": "2026-10-20T06:24:31Z",
       "blocking": false,
       "findings": [],
       "updates": [],

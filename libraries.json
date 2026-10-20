@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-20T06:20:23Z",
+  "checked": "2026-10-20T06:25:10Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -10,6 +10,7 @@
       "usedBy": [
         "keyplus@main",
         "keyplus@v1.0.42",
+        "keyplus@v1.0.43",
         "wslc-ai-agent@develop"
       ]
     },
@@ -832,6 +833,7 @@
       "usedBy": [
         "keyplus@main",
         "keyplus@v1.0.42",
+        "keyplus@v1.0.43",
         "wslc-ai-agent@develop"
       ]
     },
