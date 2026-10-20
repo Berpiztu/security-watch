@@ -1,0 +1,1558 @@
+{
+  "project": "wslc-ai-agent",
+  "ref": "develop",
+  "type": "branch",
+  "commit": "f72604b",
+  "sent": "2026-10-20T05:18:26Z",
+  "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "coverlet.collector",
+      "version": "6.0.4",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "GoogleGson",
+      "version": "2.13.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.App.Internal.Assets",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Authorization",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Analyzers",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Forms",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Web",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebView",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebView.Maui",
+      "version": "10.0.20",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Metadata",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Mvc.Testing",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.OpenApi",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.TestHost",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "6.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.14.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.AI.Abstractions",
+      "version": "10.8.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Caching.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.CommandLine",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.FileExtensions",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.FileExtensions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Json",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Json",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.UserSecrets",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Composite",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Embedded",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Physical",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Physical",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileSystemGlobbing",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileSystemGlobbing",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "10.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Localization",
+      "version": "10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Localization.Abstractions",
+      "version": "10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Configuration",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Console",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Debug",
+      "version": "10.0.13",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.EventLog",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.EventSource",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "10.0.10",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Validation",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Graphics.Win2D",
+      "version": "1.3.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.IO.RecyclableMemoryStream",
+      "version": "3.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.JSInterop",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.JSInterop.WebAssembly",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls",
+      "version": "10.0.20",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Build.Tasks",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Core",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Xaml",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Core",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Essentials",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Graphics",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Resizetizer",
+      "version": "10.0.20",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.Sdk.WebAssembly.Pack",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.14.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.OpenApi",
+      "version": "2.12.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Playwright",
+      "version": "1.62.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.14.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.14.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Web.WebView2",
+      "version": "1.0.3179.45",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Windows.SDK.BuildTools",
+      "version": "10.0.22621.756",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK",
+      "version": "1.7.250909003",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "ModelContextProtocol",
+      "version": "2.2.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "ModelContextProtocol.AspNetCore",
+      "version": "2.2.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "ModelContextProtocol.Core",
+      "version": "2.2.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "MudBlazor",
+      "version": "9.10.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Square.OkIO",
+      "version": "3.17.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Square.OkIO.JVM",
+      "version": "3.17.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "System.ComponentModel.Annotations",
+      "version": "5.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "System.Diagnostics.EventLog",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "WixToolset.UI.wixext",
+      "version": "5.0.2",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "WixToolset.Util.wixext",
+      "version": "5.0.2",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.Annotations",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.DiskLruCache",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.GifDecoder",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Activity",
+      "version": "1.13.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Activity.Ktx",
+      "version": "1.13.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation",
+      "version": "1.10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation.Experimental",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation.Jvm",
+      "version": "1.10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.AppCompat",
+      "version": "1.7.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.AppCompat.AppCompatResources",
+      "version": "1.7.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Arch.Core.Common",
+      "version": "2.2.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Arch.Core.Runtime",
+      "version": "2.2.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Browser",
+      "version": "1.8.0.11",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CardView",
+      "version": "1.0.0.36",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Collection",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Collection.Jvm",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Collection.Ktx",
+      "version": "1.6.0.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Compose.Runtime.Annotation",
+      "version": "1.11.3.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Compose.Runtime.Annotation.Android",
+      "version": "1.11.3.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Concurrent.Futures",
+      "version": "1.3.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ConstraintLayout",
+      "version": "2.2.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ConstraintLayout.Core",
+      "version": "1.1.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CoordinatorLayout",
+      "version": "1.3.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core",
+      "version": "1.19.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core.Core.Ktx",
+      "version": "1.19.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core.ViewTree",
+      "version": "1.0.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CursorAdapter",
+      "version": "1.0.0.34",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CustomView",
+      "version": "1.2.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CustomView.PoolingContainer",
+      "version": "1.1.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.Jvm",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.OkIO",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.OkIO.Jvm",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Core",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Core.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.External.Protobuf",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Proto",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DocumentFile",
+      "version": "1.1.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DrawerLayout",
+      "version": "1.2.0.18",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DynamicAnimation",
+      "version": "1.1.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Emoji2",
+      "version": "1.5.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Emoji2.ViewsHelper",
+      "version": "1.5.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ExifInterface",
+      "version": "1.4.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Fragment",
+      "version": "1.9.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Fragment.Ktx",
+      "version": "1.9.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Interpolator",
+      "version": "1.0.0.37",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Legacy.Support.Core.Utils",
+      "version": "1.0.0.37",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Common",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Common.Jvm",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.LiveData",
+      "version": "2.11.0.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.LiveData.Core",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx",
+      "version": "2.11.0.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Process",
+      "version": "2.11.0.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Ktx",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Ktx.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel.Ktx",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModelSavedState",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModelSavedState.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Loader",
+      "version": "1.2.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.LocalBroadcastManager",
+      "version": "1.1.0.25",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Common",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Common.Android",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Fragment",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Runtime",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Runtime.Android",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.UI",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.NavigationEvent",
+      "version": "1.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.NavigationEvent.Android",
+      "version": "1.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Print",
+      "version": "1.1.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ProfileInstaller.ProfileInstaller",
+      "version": "1.4.1.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.RecyclerView",
+      "version": "1.4.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ResourceInspection.Annotation",
+      "version": "1.0.1.22",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState.SavedState.Android",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState.SavedState.Ktx",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Security.SecurityCrypto",
+      "version": "1.1.0.4-alpha07",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SlidingPaneLayout",
+      "version": "1.2.0.22",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Startup.StartupRuntime",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SwipeRefreshLayout",
+      "version": "1.1.0.29",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Tracing.Tracing",
+      "version": "2.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Tracing.Tracing.Android",
+      "version": "2.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Transition",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VectorDrawable",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VectorDrawable.Animated",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VersionedParcelable",
+      "version": "1.2.1.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ViewPager",
+      "version": "1.1.0.7",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ViewPager2",
+      "version": "1.1.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window.WindowCore",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window.WindowCore.Jvm",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Build.Download",
+      "version": "0.11.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Annotations",
+      "version": "117.0.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Common",
+      "version": "122.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Components",
+      "version": "119.0.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Datatransport",
+      "version": "120.0.1.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders",
+      "version": "117.0.0.26",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders.JSON",
+      "version": "118.0.1.19",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders.Proto",
+      "version": "116.0.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Iid.Interop",
+      "version": "117.1.0.27",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Installations",
+      "version": "119.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Installations.InterOp",
+      "version": "117.3.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Measurement.Connector",
+      "version": "120.0.1.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Messaging",
+      "version": "125.1.3",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportApi",
+      "version": "4.1.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportBackendCct",
+      "version": "4.1.1.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportRuntime",
+      "version": "4.1.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.Material",
+      "version": "1.12.0.5",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Code.FindBugs.JSR305",
+      "version": "3.0.2.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Crypto.Tink.Android",
+      "version": "1.18.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.ErrorProne.Annotations",
+      "version": "2.50.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Guava.ListenableFuture",
+      "version": "1.0.0.32",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Base",
+      "version": "118.10.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Basement",
+      "version": "118.11.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.CloudMessaging",
+      "version": "117.4.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Stats",
+      "version": "117.1.0.11",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Tasks",
+      "version": "118.4.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.JavaX.Inject",
+      "version": "1.0.0.24",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Jetbrains.Annotations",
+      "version": "26.1.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.JSpecify",
+      "version": "1.0.0.7",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib.Jdk7",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib.Jdk8",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.AtomicFU",
+      "version": "0.33.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.AtomicFU.Jvm",
+      "version": "0.33.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Android",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Core",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Core.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Play.Services",
+      "version": "1.11.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Core",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Core.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Json",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Json.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Protobuf",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Protobuf.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit",
+      "version": "2.9.3",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.abstractions",
+      "version": "2.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.analyzers",
+      "version": "1.18.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.assert",
+      "version": "2.9.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.core",
+      "version": "2.9.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.extensibility.core",
+      "version": "2.9.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.extensibility.execution",
+      "version": "2.9.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "xunit.runner.visualstudio",
+      "version": "3.1.4",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "YamlDotNet",
+      "version": "16.2.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "PyPI",
+      "name": "flask",
+      "version": "3.1.3",
+      "direct": true
+    },
+    {
+      "ecosystem": "PyPI",
+      "name": "redis",
+      "version": "5.0.8",
+      "direct": true
+    }
+  ],
+  "dotnetSdk": "10.0.402",
+  "images": [
+    "nginx:stable",
+    "nvidia/cuda:12.8.1-devel-ubuntu24.04",
+    "python:3.12-slim",
+    "redis:7-alpine"
+  ]
+}
