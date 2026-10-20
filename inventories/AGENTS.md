@@ -6,7 +6,7 @@
 
 ## Ownership
 
-- The inventory's shape; the projects own their content and send it themselves, as an issue titled `inventory: <project>@<ref>` with the JSON in a ```json block, with a token that can open issues and nothing else
+- The inventory's shape; the projects own their content and send it themselves, as an issue titled `inventory: <project>@<ref>` with the JSON in a ```json block, opened by an account listed in `submitters.txt`, with no token for this repository
 
 ## Local Contracts
 

@@ -93,7 +93,7 @@ Default section order:
 
 - English for code, comments, docs and commit messages
 - Nothing here names a client, a server, a domain, an address or a person: a project's name and its dependencies only
-- No secrets here, and no project writes here: a project sends its inventory as an issue, with a token that can open issues and nothing else; the watcher, with the workflow's token alone, takes it in, answers it and closes it
+- No secrets here, and no project writes here: a project sends its inventory as an issue, opened by the account its build runs as, with no token for this repository; the watcher, with the workflow's token alone, takes it in, answers it and closes it
 - Only Berpiztu changes `projects.txt` and `submitters.txt`: an inventory from anyone else, or for a project not listed, is refused
 - Commits by people are `Iosu Buenetxea (Berpiztu) <iosub@berpiztu.ai>`, pushed as `Iosub-ai`; the work address never appears. The workflow commits its results as `github-actions[bot]`
 - A version is checked at its source before it is written (a package, an image, an action), never from memory

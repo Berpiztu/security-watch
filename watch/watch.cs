@@ -625,7 +625,7 @@ sealed record Receipt(int Issue, string Project, string Ref, string? Refused, in
 /// <summary>
 /// The projects send their inventories as issues titled
 /// <c>inventory: &lt;project&gt;@&lt;ref&gt;</c>, the JSON in a <c>```json</c>
-/// block, with a token that can open issues and nothing else: none of them
+/// block, opened by the account a project's build runs as: none of them
 /// can write a file here. Every open one is taken at each run, whichever
 /// event started it, so one whose own run was skipped is not lost. Only a
 /// submitter listed in <c>submitters.txt</c>, for a project listed in

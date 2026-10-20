@@ -14,8 +14,9 @@ libraries travels.
 1. **A project sends its list** on every build, when the list changed: an
    issue titled `inventory: <project>@<ref>`, every library its branch or
    release uses at its exact version, the transitive ones included, its
-   .NET SDK and its images, in a ```json block. Its token can open issues
-   and nothing else: no project can write a file here. The watcher takes
+   .NET SDK and its images, in a ```json block, opened by the account its
+   build runs as, as anyone opens an issue: no project writes a file here,
+   and needs no token for this repository. The watcher takes
    the list in, saves it to `inventories/<project>/<ref>.json`, answers the
    issue with the result and closes it; only from the accounts in
    [submitters.txt](submitters.txt), for the projects in
@@ -71,8 +72,8 @@ itself, and its images.
 
 - **Nothing here names a client**, a server, a domain, an address or a
   person: a project's name and its libraries only.
-- **No secrets**: a project's token lives in that project, never here, and
-  can only open issues.
+- **No secrets**: no project holds a token for this repository; it opens an
+  issue, as anyone can, and only the listed accounts are listened to.
 - **Who may send**: [submitters.txt](submitters.txt) and
   [projects.txt](projects.txt), changed by Berpiztu alone.
 
