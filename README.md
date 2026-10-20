@@ -1,101 +1,78 @@
 # security-watch
 
-Every day, the dependencies of Berpiztu's projects are checked against the
-known vulnerabilities and the newest versions, and the result is kept here:
-the state of each project now, and the history of every vulnerability that
-ever touched one, from the day it was found to the day it was gone.
+The libraries Berpiztu's projects use, checked against the known
+vulnerabilities and the newest versions. Each project sends its own list;
+every library is checked **once**, however many projects use it; and each
+project asks for its result before every build.
 
-Anyone can read it; only Berpiztu changes it.
+Anyone can read it; only Berpiztu changes it. It reads no project, and has
+access to none: a private project stays private, and only its list of
+libraries travels.
 
-## What is watched
+## How it works
 
-Each project is one file in [projects/](projects/), saying where the project
-writes its dependencies, never the versions themselves: those are read from
-the project's own files every day, so they are never out of date here.
+1. **A project sends its list** on every build, when the list changed:
+   `inventories/<project>/<ref>.json`, every library its branch or release
+   uses at its exact version, the transitive ones included, its .NET SDK and
+   its images. It writes with a token that writes to this repository alone.
+2. **The watcher checks every library once**: every list read, each library
+   (ecosystem, name, version) asked of [OSV.dev](https://osv.dev) once, each
+   name's newest version read once from its registry, each .NET SDK checked
+   against .NET's release metadata. It runs within minutes of a new list, and
+   every morning for the advisories published since.
+3. **A project asks before every build**: its `status/<project>.json`, the
+   ref it is building, and stops on anything moderate or worse.
 
-```yaml
-name: wslc-ai-agent
-repository: Berpiztu/wslc-ai-agent
-watch:
-  branches: [main, develop]   # what is being worked on
-  releases: 3                 # and the last releases, which people have installed
-sources:
-  - file: Directory.Packages.props
-    kind: nuget
-  - file: global.json
-    kind: dotnet-sdk
-  - file: app/requirements.txt
-    kind: pip
-  - file: app/Dockerfile
-    kind: dockerfile
+```json
+{
+  "project": "wslc-ai-agent",
+  "ref": "develop",
+  "type": "branch",
+  "commit": "55519a7",
+  "sent": "2026-10-20T05:10:00Z",
+  "packages": [
+    { "ecosystem": "NuGet", "name": "Microsoft.AspNetCore.Components.WebAssembly.Server", "version": "10.0.13", "direct": true },
+    { "ecosystem": "PyPI", "name": "flask", "version": "3.1.3", "direct": true }
+  ],
+  "dotnetSdk": "10.0.402",
+  "images": ["nginx:stable", "python:3.12-slim"]
+}
 ```
 
-| Kind | Read from | Checked |
-|---|---|---|
-| `nuget` | `Directory.Packages.props`, and every project that restores without workloads | known vulnerabilities, direct and transitive; newer versions of the direct ones |
-| `dotnet-sdk` | `global.json` | a .NET security release after the runtime that SDK bundles; a newer SDK in its band |
-| `pip` | a requirements file's pinned lines (`name==version`) | known vulnerabilities; newer versions |
-| `dockerfile`, `compose` | `FROM` and `image:` lines | listed, for now |
+The shape: [inventories/AGENTS.md](inventories/AGENTS.md). Ecosystems are
+OSV.dev's names: `NuGet`, `PyPI`, `npm`, `Maven` (`group:artifact`), and
+the others it knows.
 
-Vulnerabilities come from the GitHub Advisory Database (through `dotnet list
-package --vulnerable`) and [OSV.dev](https://osv.dev); .NET's releases from
-Microsoft's release metadata.
-
-## What a project asks
-
-`status/<project>.json`, at
+## What a project reads
 
 ```
 https://raw.githubusercontent.com/Berpiztu/security-watch/main/status/<project>.json
 ```
 
-```json
-{
-  "project": "wslc-ai-agent",
-  "checked": "2026-10-20T05:23:00Z",
-  "refs": [ { "ref": "main", "blocking": false }, { "ref": "v1.6.1", "blocking": true } ],
-  "vulnerable": [
-    {
-      "where": [ "v1.6.1" ],
-      "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
-      "version": "10.0.12",
-      "advisory": "GHSA-g27p-qf6j-c96c",
-      "cve": "CVE-2026-102870",
-      "severity": "high",
-      "fixedIn": "10.0.13",
-      "since": "2026-10-20"
-    }
-  ],
-  "updates": [ ],
-  "images": [ ]
-}
-```
+Each ref the project sent, with `blocking` (anything moderate, high,
+critical, or a .NET security release after the runtime its SDK bundles),
+its `worst` severity, its `findings` with the day each was first seen and
+the version that fixes it, the newer versions of the libraries it asks for
+itself, and its images.
 
-A ref is **blocking** when something there is high, critical, or a .NET
-security release: a release made from it would ship that. A project reads
-this before it releases, and stops.
-
-## When something is found
-
-- A high, critical or security-release finding seen for the first time opens
-  an **issue**, and GitHub mails it.
-- [HISTORY.md](HISTORY.md) lists every finding, newest first: when it was
-  opened, when it was closed, where, and the version that fixes it. An old
-  release keeps its finding open until it is no longer among the releases
-  watched.
+- [libraries.json](libraries.json): every library watched, its
+  vulnerabilities, its newest version and who uses it.
+- [HISTORY.md](HISTORY.md): every finding, newest first, from the day it
+  was opened to the day it was closed.
+- A blocking finding seen for the first time opens an **issue**, and GitHub
+  mails it.
 
 ## Rules
 
 - **Nothing here names a client**, a server, a domain, an address or a
-  person: a project's name and its dependencies only.
-- **No secrets.** The watcher reads public repositories with the workflow's
-  own token, and needs nothing else.
+  person: a project's name and its libraries only.
+- **No secrets**: a project's token lives in that project, never here.
 
 ## Run it
 
-Every morning on GitHub ([.github/workflows/watch.yml](.github/workflows/watch.yml)),
-by hand from the Actions tab, and whenever `projects/` or the watcher change.
-By hand on a machine, from this folder (no issue is opened without
+[.github/workflows/watch.yml](.github/workflows/watch.yml): on every list
+sent, every morning, by hand from the Actions tab, and when the watcher
+changes. By hand on a machine, from this folder (no issue is opened without
 `GH_TOKEN`):
 
 ```powershell

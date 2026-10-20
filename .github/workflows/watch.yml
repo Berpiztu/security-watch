@@ -1,11 +1,12 @@
 name: Watch
 
-# Every morning, every project in projects/ checked at its branches and its
-# last releases: status/<project>.json, history.json and HISTORY.md written
-# and committed, and an issue opened for each high, critical or .NET
-# security-release finding first seen. Also run by hand, and whenever what
-# is watched, or how, changes. A commit made here with the workflow's token
-# starts no workflow, so the run never starts itself again.
+# Every inventory the projects sent, each library in them checked once:
+# libraries.json, status/<project>.json, history.json and HISTORY.md written
+# and committed, and an issue opened for each blocking finding first seen.
+# Every morning, for the advisories published since; within minutes of a
+# project sending a new inventory, so its next build already knows; by hand;
+# and whenever the watcher changes. A commit made here with the workflow's
+# token starts no workflow, so the run never starts itself again.
 on:
   schedule:
     - cron: '23 5 * * *'
@@ -13,7 +14,7 @@ on:
   push:
     branches: [main]
     paths:
-      - projects/**
+      - inventories/**
       - watch/**
       - .github/workflows/watch.yml
 
@@ -21,38 +22,35 @@ permissions:
   contents: write
   issues: write
 
+# One run at a time, the newest waiting: inventories sent together are
+# checked together by the run that follows them.
 concurrency:
   group: watch
   cancel-in-progress: false
 
 jobs:
   watch:
-    # Windows: a project that targets Windows (a tray, a WinForms app) lists
-    # its packages only where it can be restored as it is built.
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      # The newest .NET 10 SDK: it runs the watcher, and it restores every
-      # watched ref, whose global.json rolls forward to it.
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 10.0.x
 
-      - name: Check every project
+      - name: Check every library
         env:
           GH_TOKEN: ${{ github.token }}
         run: dotnet run watch/watch.cs
 
-      # Committed even when a project failed: the others' results are good,
-      # and the failed one's status says why.
+      # A project may have sent an inventory while this ran: the results go
+      # on top of it.
       - name: Keep the results
-        if: always()
-        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Watch $(date -u +%Y-%m-%d)"
+          git commit -m "Watch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
           git push

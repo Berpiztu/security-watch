@@ -76,16 +76,17 @@ Default section order:
 
 ## Project
 
-- security-watch checks, every day, the dependencies of Berpiztu's projects against the known vulnerabilities and the newest versions, and keeps the result: a status per project, which each project reads before it releases, and the history of every finding ([README.md](README.md))
+- security-watch checks the libraries Berpiztu's projects use against the known vulnerabilities and the newest versions: each project sends its own list, every library is checked once for all of them, and each project reads its status before every build ([README.md](README.md))
+- It reads no project: it has access to none, and needs none
 - Public: anyone reads it, only Berpiztu changes it
-- Layout: `projects/` what is watched; `watch/` the watcher; `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
+- Layout: `inventories/` what the projects send; `watch/` the watcher; `libraries.json`, `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
 - The root owns the README, the workflow and the rules below
 
 ## Rules
 
 - English for code, comments, docs and commit messages
 - Nothing here names a client, a server, a domain, an address or a person: a project's name and its dependencies only
-- No secrets: the watcher reads public repositories with the workflow's token alone
+- No secrets here: the projects write their inventories with a token of their own that writes to this repository alone, and the watcher needs only the workflow's token
 - Commits by people are `Iosu Buenetxea (Berpiztu) <iosub@berpiztu.ai>`, pushed as `Iosub-ai`; the work address never appears. The workflow commits its results as `github-actions[bot]`
 - A version is checked at its source before it is written (a package, an image, an action), never from memory
 - The watcher is verified on GitHub (the Watch workflow, by hand or on push), never by building or running it on the owner's machine
@@ -98,5 +99,5 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
-- [projects/AGENTS.md](projects/AGENTS.md): what is watched, one file per project, and the shape of that file
-- [watch/AGENTS.md](watch/AGENTS.md): the watcher, how it checks each kind of source, and what it writes (`status/`, `history.json`, `HISTORY.md`, issues)
+- [inventories/AGENTS.md](inventories/AGENTS.md): what each project sends, one file per branch or release, and its shape
+- [watch/AGENTS.md](watch/AGENTS.md): the watcher, how each library is checked once, and what it writes (`libraries.json`, `status/`, `history.json`, `HISTORY.md`, issues)
