@@ -74,10 +74,29 @@ Default section order:
 5. Run existing verification when relevant
 6. Report any docs intentionally left unchanged and why
 
+## Project
+
+- security-watch checks, every day, the dependencies of Berpiztu's projects against the known vulnerabilities and the newest versions, and keeps the result: a status per project, which each project reads before it releases, and the history of every finding ([README.md](README.md))
+- Public: anyone reads it, only Berpiztu changes it
+- Layout: `projects/` what is watched; `watch/` the watcher; `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
+- The root owns the README, the workflow and the rules below
+
+## Rules
+
+- English for code, comments, docs and commit messages
+- Nothing here names a client, a server, a domain, an address or a person: a project's name and its dependencies only
+- No secrets: the watcher reads public repositories with the workflow's token alone
+- Commits by people are `Iosu Buenetxea (Berpiztu) <iosub@berpiztu.ai>`, pushed as `Iosub-ai`; the work address never appears. The workflow commits its results as `github-actions[bot]`
+- A version is checked at its source before it is written (a package, an image, an action), never from memory
+- The watcher is verified on GitHub (the Watch workflow, by hand or on push), never by building or running it on the owner's machine
+
 ## User Preferences
 
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
 
+- Every change ends committed and pushed; git is done by the agent, never handed to the owner as commands
+
 ## Child DOX Index
 
-This project is not yet indexed. Before continuing you must scan the project, build the DOX tree and replace this message with the actual index. Go deep and scan files recursively to properly evaluate complexity and create nested DOX files where needed.
+- [projects/AGENTS.md](projects/AGENTS.md): what is watched, one file per project, and the shape of that file
+- [watch/AGENTS.md](watch/AGENTS.md): the watcher, how it checks each kind of source, and what it writes (`status/`, `history.json`, `HISTORY.md`, issues)
