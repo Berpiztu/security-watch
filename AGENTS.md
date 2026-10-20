@@ -86,7 +86,7 @@ Default section order:
 - security-watch checks the libraries Berpiztu's projects use against the known vulnerabilities and the newest versions: each project sends its own list, every library is checked once for all of them, and each project reads its status before every build ([README.md](README.md))
 - It reads no project: it has access to none, and needs none
 - Public: anyone reads it, only Berpiztu changes it
-- Layout: `projects.txt` and `submitters.txt` who may send; `inventories/` what the projects sent; `watch/` the watcher; `libraries.json`, `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
+- Layout: `projects.txt` and `submitters.txt` who may send; `client/` the script every project's builds use; `inventories/` what the projects sent; `watch/` the watcher; `libraries.json`, `status/`, `history.json`, `HISTORY.md` its output, written and committed by the workflow, never by hand; `.github/workflows/watch.yml` when it runs
 - The root owns the README, the workflow and the rules below
 
 ## Rules
@@ -107,5 +107,6 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
+- [client/AGENTS.md](client/AGENTS.md): the script every project's builds use to ask before a build and send their list after, and how a project keeps its copy
 - [inventories/AGENTS.md](inventories/AGENTS.md): what each project sends, one file per branch or release, and its shape
 - [watch/AGENTS.md](watch/AGENTS.md): the watcher, how each library is checked once, and what it writes (`libraries.json`, `status/`, `history.json`, `HISTORY.md`, issues)

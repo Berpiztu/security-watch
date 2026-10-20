@@ -49,6 +49,27 @@ The shape: [inventories/AGENTS.md](inventories/AGENTS.md). Ecosystems are
 OSV.dev's names: `NuGet`, `PyPI`, `npm`, `Maven` (`group:artifact`), and
 the others it knows.
 
+## A project joins
+
+1. Its name goes in [projects.txt](projects.txt), and the account its builds
+   run as in [submitters.txt](submitters.txt).
+2. It keeps a copy of [client/SecurityWatch.ps1](client/SecurityWatch.ps1),
+   sets its name and dot-sources it:
+
+   ```powershell
+   $SecurityWatchProject = "keyplus"
+   . (Join-Path $PSScriptRoot "SecurityWatch.ps1")
+   ```
+
+3. Its build scripts call `Test-SecurityWatch` first and
+   `Send-SecurityWatchInventory` once built; its release script calls
+   `Send-SecurityWatchInventory` with the release's tag when it tags it.
+
+The list is made from what the build restored and asked for: NuGet
+(transitive ones included), pinned requirements, the .NET SDK and the
+container images. The issue is opened as whoever `gh` is signed in as on
+that machine; GitHub Actions only asks.
+
 ## What a project reads
 
 ```
