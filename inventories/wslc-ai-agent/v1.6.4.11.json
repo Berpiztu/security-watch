@@ -1,9 +1,9 @@
 {
   "project": "wslc-ai-agent",
-  "ref": "v1.6.4.3",
+  "ref": "v1.6.4.11",
   "type": "release",
-  "commit": "13a5fee",
-  "sent": "2026-10-20T19:21:20Z",
+  "commit": "ba70d5d",
+  "sent": "2026-10-21T06:56:28Z",
   "packages": [
     {
       "ecosystem": "NuGet",
