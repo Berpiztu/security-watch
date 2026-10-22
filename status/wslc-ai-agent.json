@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-10-21T10:16:57Z",
+  "checked": "2026-10-22T10:18:09Z",
   "refs": [
     {
       "ref": "main",
@@ -20,13 +20,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
@@ -38,7 +38,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.63.0"
+          "latest": "1.64.0"
         },
         {
           "ecosystem": "NuGet",
@@ -114,13 +114,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
@@ -132,7 +132,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.63.0"
+          "latest": "1.64.0"
         },
         {
           "ecosystem": "NuGet",
@@ -208,13 +208,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
@@ -226,7 +226,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.63.0"
+          "latest": "1.64.0"
         },
         {
           "ecosystem": "NuGet",
@@ -302,13 +302,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
@@ -320,7 +320,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.63.0"
+          "latest": "1.64.0"
         },
         {
           "ecosystem": "NuGet",
@@ -396,13 +396,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.20",
-          "latest": "10.0.110"
+          "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
@@ -414,7 +414,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.63.0"
+          "latest": "1.64.0"
         },
         {
           "ecosystem": "NuGet",

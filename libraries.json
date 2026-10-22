@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-21T10:16:57Z",
+  "checked": "2026-10-22T10:18:09Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -190,7 +190,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.WebView.Maui",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1030,7 +1030,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Controls",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1044,7 +1044,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Controls.Build.Tasks",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1058,7 +1058,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Controls.Core",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1072,7 +1072,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Controls.Xaml",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1086,7 +1086,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Core",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1100,7 +1100,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Essentials",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1114,7 +1114,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Graphics",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1128,7 +1128,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1142,7 +1142,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Maui.Resizetizer",
       "version": "10.0.20",
-      "latest": "10.0.110",
+      "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1215,7 +1215,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Playwright",
       "version": "1.62.0",
-      "latest": "1.63.0",
+      "latest": "1.64.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
