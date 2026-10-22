@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-10-22T10:18:09Z",
+  "checked": "2026-10-22T23:49:13Z",
   "refs": [
     {
       "ref": "main",
@@ -38,7 +38,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.64.0"
+          "latest": "1.64.1"
         },
         {
           "ecosystem": "NuGet",
@@ -132,7 +132,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.64.0"
+          "latest": "1.64.1"
         },
         {
           "ecosystem": "NuGet",
@@ -226,7 +226,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.64.0"
+          "latest": "1.64.1"
         },
         {
           "ecosystem": "NuGet",
@@ -320,7 +320,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.64.0"
+          "latest": "1.64.1"
         },
         {
           "ecosystem": "NuGet",
@@ -414,7 +414,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.Playwright",
           "version": "1.62.0",
-          "latest": "1.64.0"
+          "latest": "1.64.1"
         },
         {
           "ecosystem": "NuGet",

@@ -1,15 +1,22 @@
 {
   "project": "keyplus",
-  "checked": "2026-10-22T10:18:09Z",
+  "checked": "2026-10-22T23:49:13Z",
   "refs": [
     {
       "ref": "main",
       "type": "branch",
-      "commit": "58e60fe",
-      "sent": "2026-10-20T06:15:03Z",
+      "commit": "ac008ca",
+      "sent": "2026-10-22T23:48:25Z",
       "blocking": false,
       "findings": [],
-      "updates": [],
+      "updates": [
+        {
+          "ecosystem": "NuGet",
+          "package": "NAudio.WinMM",
+          "version": "2.2.1",
+          "latest": "3.3.0"
+        }
+      ],
       "images": []
     },
     {
