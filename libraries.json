@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-22T23:50:05Z",
+  "checked": "2026-10-23T10:11:44Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1259,7 +1259,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Web.WebView2",
       "version": "1.0.3179.45",
-      "latest": "1.0.4258.31",
+      "latest": "1.0.4314.35",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
