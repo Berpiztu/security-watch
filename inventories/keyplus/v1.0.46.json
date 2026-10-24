@@ -1,0 +1,65 @@
+{
+  "project": "keyplus",
+  "ref": "v1.0.46",
+  "type": "release",
+  "commit": "442334c",
+  "sent": "2026-10-24T04:15:41Z",
+  "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.13",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "NAudio.Core",
+      "version": "2.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "NAudio.WinMM",
+      "version": "2.2.1",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "SharpGen.Runtime",
+      "version": "2.4.2-beta",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "SharpGen.Runtime.COM",
+      "version": "2.4.2-beta",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Vortice.Direct2D1",
+      "version": "3.8.3",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Vortice.DirectX",
+      "version": "3.8.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Vortice.DXGI",
+      "version": "3.8.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Vortice.Mathematics",
+      "version": "2.1.0",
+      "direct": false
+    }
+  ],
+  "dotnetSdk": "10.0.402",
+  "images": []
+}
