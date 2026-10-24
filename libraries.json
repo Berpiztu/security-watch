@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-24T04:27:57Z",
+  "checked": "2026-10-24T04:51:48Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -9,9 +9,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
         "keyplus@v1.0.47",
+        "keyplus@v1.0.48",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
@@ -1161,9 +1161,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
         "keyplus@v1.0.47",
+        "keyplus@v1.0.48",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
@@ -1361,9 +1361,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1374,9 +1374,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1401,9 +1401,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1414,9 +1414,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1483,9 +1483,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1496,9 +1496,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1509,9 +1509,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
@@ -1522,9 +1522,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.45",
         "keyplus@v1.0.46",
-        "keyplus@v1.0.47"
+        "keyplus@v1.0.47",
+        "keyplus@v1.0.48"
       ]
     },
     {
