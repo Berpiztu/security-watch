@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25T22:52:07Z",
+  "checked": "2026-10-25T23:05:53Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -20,12 +20,21 @@
         "keyplus@main",
         "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "dotnet-sdk",
+      "name": ".NET SDK",
+      "version": "10.0.403",
+      "latest": "10.0.403",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@v1.0.53"
       ]
     },
     {
@@ -1198,12 +1207,21 @@
         "keyplus@main",
         "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@v1.0.53"
       ]
     },
     {
