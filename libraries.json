@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25T23:25:15Z",
+  "checked": "2026-10-25T23:39:55Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -95,11 +95,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Authorization",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -109,11 +118,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -123,11 +141,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Analyzers",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -137,11 +164,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Forms",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -151,11 +187,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Web",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -165,11 +210,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -179,11 +233,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -193,11 +256,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -221,11 +293,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.WebView.Maui",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -235,11 +316,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Metadata",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -249,11 +339,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Mvc.Testing",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -263,11 +362,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.OpenApi",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -277,11 +385,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.TestHost",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -347,11 +464,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -375,11 +501,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -389,11 +524,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -403,11 +547,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.CommandLine",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -417,11 +570,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -445,11 +607,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.FileExtensions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -473,11 +644,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Json",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -487,11 +667,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.UserSecrets",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -501,11 +690,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -529,11 +727,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -543,11 +750,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -557,11 +773,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -585,11 +810,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -627,11 +861,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -683,11 +926,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileProviders.Physical",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -711,11 +963,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.FileSystemGlobbing",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -725,11 +986,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -767,11 +1037,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -809,11 +1088,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -837,11 +1125,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -851,11 +1148,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Configuration",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -865,11 +1171,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Console",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -879,11 +1194,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Debug",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -893,11 +1217,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.EventLog",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -907,11 +1240,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.EventSource",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -935,11 +1277,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -949,11 +1300,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -977,11 +1337,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -991,11 +1360,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Validation",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1005,11 +1383,20 @@
       "latest": "1.4.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Graphics.Win2D",
+      "version": "1.4.0",
+      "latest": "1.4.0",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1033,11 +1420,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.JSInterop",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1047,11 +1443,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.JSInterop.WebAssembly",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1061,11 +1466,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1075,11 +1489,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Build.Tasks",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1089,11 +1512,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Core",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1103,11 +1535,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Controls.Xaml",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1117,11 +1558,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Core",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1131,11 +1581,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Essentials",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1145,11 +1604,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Graphics",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1159,11 +1627,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1173,11 +1650,20 @@
       "latest": "10.0.120",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Maui.Resizetizer",
+      "version": "10.0.110",
+      "latest": "10.0.120",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1347,11 +1833,30 @@
       "latest": "10.0.28000.2705",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Windows.SDK.BuildTools",
+      "version": "10.0.26100.8249",
+      "latest": "10.0.28000.2705",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Windows.SDK.BuildTools.MSIX",
+      "version": "1.7.20250829.1",
+      "latest": "1.7.261008100",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1361,11 +1866,110 @@
       "latest": "2.5.1",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK",
+      "version": "1.8.260529003",
+      "latest": "2.5.1",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.AI",
+      "version": "1.8.76",
+      "latest": "2.5.5",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.Base",
+      "version": "1.8.251216001",
+      "latest": "2.0.4",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.DWrite",
+      "version": "1.8.25122902",
+      "latest": "2.1.0",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.Foundation",
+      "version": "1.8.260527000",
+      "latest": "2.3.12",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.InteractiveExperiences",
+      "version": "1.8.260525001",
+      "latest": "2.1.9",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.ML",
+      "version": "1.8.2197",
+      "latest": "2.1.94",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.Runtime",
+      "version": "1.8.260529003",
+      "latest": "2.5.1",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.Widgets",
+      "version": "1.8.251231004",
+      "latest": "2.0.5",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.WindowsAppSDK.WinUI",
+      "version": "1.8.260528001",
+      "latest": "2.3.9",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1539,11 +2143,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "System.Diagnostics.EventLog",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1556,7 +2169,8 @@
         "keyplus@main",
         "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "wslc-ai-agent@develop"
       ]
     },
     {

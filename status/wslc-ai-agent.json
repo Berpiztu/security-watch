@@ -1,12 +1,12 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-10-25T23:25:15Z",
+  "checked": "2026-10-25T23:39:55Z",
   "refs": [
     {
       "ref": "develop",
       "type": "branch",
       "commit": "7fb3e90",
-      "sent": "2026-10-25T23:24:41Z",
+      "sent": "2026-10-25T23:39:20Z",
       "blocking": false,
       "findings": [],
       "updates": [
@@ -18,56 +18,14 @@
         },
         {
           "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Components.Web",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Components.WebAssembly",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
-          "version": "10.0.20",
+          "version": "10.0.110",
           "latest": "10.0.120"
         },
         {
           "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Mvc.Testing",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.OpenApi",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.Extensions.Logging.Debug",
-          "version": "10.0.13",
-          "latest": "10.0.14"
-        },
-        {
-          "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
-          "version": "10.0.20",
+          "version": "10.0.110",
           "latest": "10.0.120"
         },
         {
