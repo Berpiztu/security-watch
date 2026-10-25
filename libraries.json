@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25T09:54:03Z",
+  "checked": "2026-10-25T10:11:39Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1155,6 +1155,26 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.ML.OnnxRuntime",
+      "version": "1.31.0",
+      "latest": "1.31.0",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.ML.OnnxRuntime.Managed",
+      "version": "1.31.0",
+      "latest": "1.31.0",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.NET.ILLink.Tasks",
       "version": "10.0.13",
       "latest": "10.0.13",
@@ -1477,6 +1497,16 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "System.Numerics.Tensors",
+      "version": "9.0.0",
+      "latest": "10.0.13",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Vortice.Direct2D1",
       "version": "3.8.3",
       "latest": "3.8.3",
@@ -1525,6 +1555,16 @@
         "keyplus@v1.0.48",
         "keyplus@v1.0.49",
         "keyplus@v1.0.50"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "WeCantSpell.Hunspell",
+      "version": "7.0.1",
+      "latest": "7.0.1",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
       ]
     },
     {
