@@ -1,10 +1,22 @@
 {
   "project": "keyplus",
-  "ref": "v1.0.49",
+  "ref": "v1.0.52",
   "type": "release",
-  "commit": "aa25545",
-  "sent": "2026-10-24T11:50:59Z",
+  "commit": "649cf4d",
+  "sent": "2026-10-25T11:18:39Z",
   "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.ML.OnnxRuntime",
+      "version": "1.31.0",
+      "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.ML.OnnxRuntime.Managed",
+      "version": "1.31.0",
+      "direct": false
+    },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.NET.ILLink.Tasks",
@@ -37,6 +49,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "System.Numerics.Tensors",
+      "version": "9.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Vortice.Direct2D1",
       "version": "3.8.3",
       "direct": true
@@ -58,6 +76,12 @@
       "name": "Vortice.Mathematics",
       "version": "2.1.0",
       "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "WeCantSpell.Hunspell",
+      "version": "7.0.1",
+      "direct": true
     }
   ],
   "dotnetSdk": "10.0.402",
