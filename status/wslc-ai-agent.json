@@ -1,14 +1,29 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-10-25T11:19:08Z",
+  "checked": "2026-10-25T22:52:08Z",
   "refs": [
     {
       "ref": "main",
       "type": "branch",
       "commit": "7244ee7",
       "sent": "2026-10-20T08:07:59Z",
-      "blocking": false,
-      "findings": [],
+      "blocking": true,
+      "worst": "security-release",
+      "findings": [
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "advisory": "dotnet-10.0.14",
+          "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+          "severity": "security-release",
+          "blocking": true,
+          "summary": "The SDK bundles runtime 10.0.13; .NET 10.0.14, a security release, fixed 4 CVEs after it",
+          "fixedIn": "SDK 10.0.403",
+          "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+          "since": "2026-10-25"
+        }
+      ],
       "updates": [
         {
           "ecosystem": "NuGet",
@@ -18,9 +33,51 @@
         },
         {
           "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.Web",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
           "latest": "10.0.120"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Mvc.Testing",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Extensions.Logging.Debug",
+          "version": "10.0.13",
+          "latest": "10.0.14"
         },
         {
           "ecosystem": "NuGet",
@@ -87,6 +144,12 @@
           "package": "redis",
           "version": "5.0.8",
           "latest": "8.1.0"
+        },
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "latest": "10.0.403"
         }
       ],
       "images": [
@@ -101,8 +164,23 @@
       "type": "branch",
       "commit": "f72604b",
       "sent": "2026-10-20T05:18:26Z",
-      "blocking": false,
-      "findings": [],
+      "blocking": true,
+      "worst": "security-release",
+      "findings": [
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "advisory": "dotnet-10.0.14",
+          "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+          "severity": "security-release",
+          "blocking": true,
+          "summary": "The SDK bundles runtime 10.0.13; .NET 10.0.14, a security release, fixed 4 CVEs after it",
+          "fixedIn": "SDK 10.0.403",
+          "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+          "since": "2026-10-25"
+        }
+      ],
       "updates": [
         {
           "ecosystem": "NuGet",
@@ -112,9 +190,51 @@
         },
         {
           "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.Web",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
           "latest": "10.0.120"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Mvc.Testing",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Extensions.Logging.Debug",
+          "version": "10.0.13",
+          "latest": "10.0.14"
         },
         {
           "ecosystem": "NuGet",
@@ -181,6 +301,12 @@
           "package": "redis",
           "version": "5.0.8",
           "latest": "8.1.0"
+        },
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "latest": "10.0.403"
         }
       ],
       "images": [
@@ -195,8 +321,23 @@
       "type": "release",
       "commit": "ba70d5d",
       "sent": "2026-10-21T06:56:28Z",
-      "blocking": false,
-      "findings": [],
+      "blocking": true,
+      "worst": "security-release",
+      "findings": [
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "advisory": "dotnet-10.0.14",
+          "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+          "severity": "security-release",
+          "blocking": true,
+          "summary": "The SDK bundles runtime 10.0.13; .NET 10.0.14, a security release, fixed 4 CVEs after it",
+          "fixedIn": "SDK 10.0.403",
+          "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+          "since": "2026-10-25"
+        }
+      ],
       "updates": [
         {
           "ecosystem": "NuGet",
@@ -206,9 +347,51 @@
         },
         {
           "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.Web",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
           "latest": "10.0.120"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Mvc.Testing",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Extensions.Logging.Debug",
+          "version": "10.0.13",
+          "latest": "10.0.14"
         },
         {
           "ecosystem": "NuGet",
@@ -275,6 +458,12 @@
           "package": "redis",
           "version": "5.0.8",
           "latest": "8.1.0"
+        },
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "latest": "10.0.403"
         }
       ],
       "images": [
@@ -289,8 +478,23 @@
       "type": "release",
       "commit": "6ad2d08",
       "sent": "2026-10-21T04:16:18Z",
-      "blocking": false,
-      "findings": [],
+      "blocking": true,
+      "worst": "security-release",
+      "findings": [
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "advisory": "dotnet-10.0.14",
+          "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+          "severity": "security-release",
+          "blocking": true,
+          "summary": "The SDK bundles runtime 10.0.13; .NET 10.0.14, a security release, fixed 4 CVEs after it",
+          "fixedIn": "SDK 10.0.403",
+          "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+          "since": "2026-10-25"
+        }
+      ],
       "updates": [
         {
           "ecosystem": "NuGet",
@@ -300,9 +504,51 @@
         },
         {
           "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.Web",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
           "latest": "10.0.120"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Mvc.Testing",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Extensions.Logging.Debug",
+          "version": "10.0.13",
+          "latest": "10.0.14"
         },
         {
           "ecosystem": "NuGet",
@@ -369,6 +615,12 @@
           "package": "redis",
           "version": "5.0.8",
           "latest": "8.1.0"
+        },
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "latest": "10.0.403"
         }
       ],
       "images": [
@@ -383,8 +635,23 @@
       "type": "release",
       "commit": "48fdfef",
       "sent": "2026-10-20T23:34:15Z",
-      "blocking": false,
-      "findings": [],
+      "blocking": true,
+      "worst": "security-release",
+      "findings": [
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "advisory": "dotnet-10.0.14",
+          "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+          "severity": "security-release",
+          "blocking": true,
+          "summary": "The SDK bundles runtime 10.0.13; .NET 10.0.14, a security release, fixed 4 CVEs after it",
+          "fixedIn": "SDK 10.0.403",
+          "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+          "since": "2026-10-25"
+        }
+      ],
       "updates": [
         {
           "ecosystem": "NuGet",
@@ -394,9 +661,51 @@
         },
         {
           "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.Web",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebAssembly.Server",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.20",
           "latest": "10.0.120"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Mvc.Testing",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.OpenApi",
+          "version": "10.0.13",
+          "latest": "10.0.14"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Extensions.Logging.Debug",
+          "version": "10.0.13",
+          "latest": "10.0.14"
         },
         {
           "ecosystem": "NuGet",
@@ -463,6 +772,12 @@
           "package": "redis",
           "version": "5.0.8",
           "latest": "8.1.0"
+        },
+        {
+          "ecosystem": "dotnet-sdk",
+          "package": ".NET SDK",
+          "version": "10.0.402",
+          "latest": "10.0.403"
         }
       ],
       "images": [

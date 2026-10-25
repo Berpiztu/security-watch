@@ -1,3 +1,45 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "project": "keyplus",
+      "key": "dotnet-sdk|.NET SDK|10.0.402|dotnet-10.0.14",
+      "ecosystem": "dotnet-sdk",
+      "package": ".NET SDK",
+      "version": "10.0.402",
+      "advisory": "dotnet-10.0.14",
+      "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+      "severity": "security-release",
+      "fixedIn": "SDK 10.0.403",
+      "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+      "opened": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "where": [
+        "main",
+        "v1.0.51",
+        "v1.0.52",
+        "v1.0.53"
+      ]
+    },
+    {
+      "project": "wslc-ai-agent",
+      "key": "dotnet-sdk|.NET SDK|10.0.402|dotnet-10.0.14",
+      "ecosystem": "dotnet-sdk",
+      "package": ".NET SDK",
+      "version": "10.0.402",
+      "advisory": "dotnet-10.0.14",
+      "cve": "CVE-2026-111497, CVE-2026-70197, CVE-2026-102870, CVE-2026-114148",
+      "severity": "security-release",
+      "fixedIn": "SDK 10.0.403",
+      "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+      "opened": "2026-10-25",
+      "lastSeen": "2026-10-25",
+      "where": [
+        "develop",
+        "main",
+        "v1.6.4.10",
+        "v1.6.4.11",
+        "v1.6.4.8"
+      ]
+    }
+  ]
 }
