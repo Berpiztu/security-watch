@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25T23:05:53Z",
+  "checked": "2026-10-25T23:25:15Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -20,7 +20,6 @@
         "keyplus@main",
         "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
@@ -34,7 +33,8 @@
       "latest": "10.0.403",
       "vulnerabilities": [],
       "usedBy": [
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -72,11 +72,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.App.Internal.Assets",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1207,7 +1216,6 @@
         "keyplus@main",
         "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
@@ -1221,7 +1229,8 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "wslc-ai-agent@develop"
       ]
     },
     {
@@ -1231,11 +1240,20 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11",
         "wslc-ai-agent@v1.6.4.8"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.NET.Sdk.WebAssembly.Pack",
+      "version": "10.0.14",
+      "latest": "10.0.14",
+      "vulnerabilities": [],
+      "usedBy": [
+        "wslc-ai-agent@develop"
       ]
     },
     {

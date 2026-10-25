@@ -2,8 +2,8 @@
   "project": "wslc-ai-agent",
   "ref": "develop",
   "type": "branch",
-  "commit": "f72604b",
-  "sent": "2026-10-20T05:18:26Z",
+  "commit": "7fb3e90",
+  "sent": "2026-10-25T23:24:41Z",
   "packages": [
     {
       "ecosystem": "NuGet",
@@ -20,7 +20,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.App.Internal.Assets",
-      "version": "10.0.13",
+      "version": "10.0.14",
       "direct": false
     },
     {
@@ -494,13 +494,13 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.NET.ILLink.Tasks",
-      "version": "10.0.13",
+      "version": "10.0.14",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.NET.Sdk.WebAssembly.Pack",
-      "version": "10.0.13",
+      "version": "10.0.14",
       "direct": false
     },
     {
@@ -1548,7 +1548,7 @@
       "direct": true
     }
   ],
-  "dotnetSdk": "10.0.402",
+  "dotnetSdk": "10.0.403",
   "images": [
     "nginx:stable",
     "nvidia/cuda:12.8.1-devel-ubuntu24.04",
