@@ -102,6 +102,23 @@ function Wait-SecurityWatchAnswer {
     return $false
 }
 
+function Get-SecurityWatchAnswered {
+    <#
+    security-watch's status once it holds the answer to the list sent from
+    Commit: it closes the inventory issue a moment before it writes its
+    status, so read at once the status could still be the last list's. Up
+    to a minute; then the status as it is.
+    #>
+    param([Parameter(Mandatory = $true)][string]$Ref, [Parameter(Mandatory = $true)][string]$Commit)
+    $deadline = (Get-Date).AddMinutes(1)
+    while ($true) {
+        $status = Get-SecurityWatchFile "status/$SecurityWatchProject.json"
+        $mine = if ($status) { @($status.refs) | Where-Object { $_.ref -eq $Ref } | Select-Object -First 1 }
+        if (($mine -and $mine.commit -eq $Commit) -or (Get-Date) -ge $deadline) { return $status }
+        Start-Sleep -Seconds 3
+    }
+}
+
 function Assert-SecurityWatchRef {
     <# What security-watch says of a ref: a lower finding warns, one moderate or worse stops, with each one and the version that fixes it. #>
     param([Parameter(Mandatory = $true)]$Mine, [Parameter(Mandatory = $true)][string]$Ref)
@@ -156,7 +173,7 @@ function Test-SecurityWatch {
                 if (-not (Wait-SecurityWatchAnswer $pending.number)) {
                     throw "security-watch has not answered yet ($($pending.html_url)): release again in a minute."
                 }
-                $status = Get-SecurityWatchFile "status/$SecurityWatchProject.json"
+                $status = Get-SecurityWatchAnswered -Ref $Ref -Commit $here.commit
             }
         }
     } catch [System.Net.Http.HttpRequestException], [System.Net.WebException] {
@@ -346,6 +363,7 @@ function Send-SecurityWatchInventory {
         Write-Warning "security-watch has not answered yet ($($opened.html_url)): the next build or release asks it."
         return
     }
-    $mine = @((Get-SecurityWatchFile "status/$SecurityWatchProject.json").refs) | Where-Object { $_.ref -eq $Ref.Name } | Select-Object -First 1
+    $status = Get-SecurityWatchAnswered -Ref $Ref.Name -Commit $inventory.commit
+    $mine = if ($status) { @($status.refs) | Where-Object { $_.ref -eq $Ref.Name } | Select-Object -First 1 }
     if ($mine) { Assert-SecurityWatchRef -Mine $mine -Ref $Ref.Name }
 }
