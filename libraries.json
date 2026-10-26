@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-26T00:38:37Z",
+  "checked": "2026-10-26T00:42:57Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -17,7 +17,6 @@
         }
       ],
       "usedBy": [
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11"
@@ -32,6 +31,7 @@
       "usedBy": [
         "keyplus@main",
         "keyplus@v1.0.53",
+        "keyplus@v1.0.54",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0"
@@ -1674,9 +1674,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -1687,9 +1687,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -1699,7 +1699,6 @@
       "latest": "10.0.14",
       "vulnerabilities": [],
       "usedBy": [
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
         "wslc-ai-agent@v1.6.4.10",
         "wslc-ai-agent@v1.6.4.11"
@@ -1714,6 +1713,7 @@
       "usedBy": [
         "keyplus@main",
         "keyplus@v1.0.53",
+        "keyplus@v1.0.54",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0"
@@ -2056,9 +2056,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2069,9 +2069,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2096,9 +2096,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2109,9 +2109,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2187,9 +2187,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
         "keyplus@v1.0.53",
+        "keyplus@v1.0.54",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0"
@@ -2203,9 +2203,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2216,9 +2216,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2229,9 +2229,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2242,9 +2242,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
@@ -2255,9 +2255,9 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@main",
-        "keyplus@v1.0.51",
         "keyplus@v1.0.52",
-        "keyplus@v1.0.53"
+        "keyplus@v1.0.53",
+        "keyplus@v1.0.54"
       ]
     },
     {
