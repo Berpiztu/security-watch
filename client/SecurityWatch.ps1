@@ -14,9 +14,11 @@
     (status/<project>.json). This is the one copy every project takes;
     client/AGENTS.md in security-watch says how it is kept.
 
-    Test-SecurityWatch, first thing in a build: the status of the ref being
-    built. A finding moderate or worse stops the build; a lower one is
-    written as a warning. When security-watch cannot be reached, the person
+    Test-SecurityWatch, first thing in a build: what security-watch says of
+    the libraries this build uses. When the list it holds of the ref is not
+    this checkout's, this one is sent first and its answer waited for; the
+    one it held says nothing of this build. A finding moderate or worse
+    stops the build; a lower one is written as a warning. When security-watch cannot be reached, the person
     is asked whether to go on; a build on GitHub Actions stops. A release
     script calls it with -Release: what it releases must be the list
     security-watch checked, so a list it has not answered yet is waited for,
@@ -119,22 +121,34 @@ function Test-SecurityWatch {
     <#
     Asks security-watch about the ref being built, or the one named: stops on
     a finding moderate or worse, warns on a lower one, and asks whether to go
-    on when security-watch cannot be reached. With -Release, what is about to
+    on when security-watch cannot be reached. A build of a ref whose list is
+    sent judges this checkout's list: one security-watch does not hold yet is
+    sent first (Send-SecurityWatchInventory) and its answer said. With -Release, what is about to
     be released must be what security-watch checked: the list this checkout
     builds has to be the one it holds; one it has not answered yet is waited
     for, and none at all stops the release, since the build that sends it
     comes first.
     #>
     param([string]$Ref, [switch]$Release)
-    if (-not $Ref) { $Ref = (Get-SecurityWatchRef).Name }
+    $own = Get-SecurityWatchRef
+    if (-not $Ref) { $Ref = $own.Name }
+    $sendFirst = $false
     try {
-        $status = Get-SecurityWatchFile "status/$SecurityWatchProject.json"
+        # A build is judged on the libraries it builds with: when
+        # security-watch holds another list, the one it holds says nothing of
+        # this build, so this one is sent first and its answer is the one said.
+        if (-not $Release -and $own.Name -eq $Ref -and (Test-SecurityWatchSends $own)) {
+            $here = Get-SecurityWatchInventory -Ref $own
+            $sendFirst = -not (Test-SecurityWatchSame (Get-SecurityWatchFile "inventories/$SecurityWatchProject/$Ref.json") $here)
+        }
+        $status = if (-not $sendFirst) { Get-SecurityWatchFile "status/$SecurityWatchProject.json" }
         if ($Release) {
             $here = Get-SecurityWatchInventory -Ref ([pscustomobject]@{ Name = $Ref; Type = "branch" })
             if (-not (Test-SecurityWatchSame (Get-SecurityWatchFile "inventories/$SecurityWatchProject/$Ref.json") $here)) {
                 $title = "inventory: $SecurityWatchProject@$Ref"
-                $pending = @(Invoke-RestMethod -Uri "https://api.github.com/repos/$SecurityWatchRepository/issues?state=open&per_page=100" -Headers (Get-SecurityWatchHeaders) -TimeoutSec 20) |
-                    Where-Object { $_.title -eq $title } | Select-Object -First 1
+                # The issues one by one: Invoke-RestMethod hands the list over whole, and with none open, strict mode stopped on the empty list's title.
+                $pending = Invoke-RestMethod -Uri "https://api.github.com/repos/$SecurityWatchRepository/issues?state=open&per_page=100" -Headers (Get-SecurityWatchHeaders) -TimeoutSec 20 |
+                    ForEach-Object { $_ } | Where-Object { $_.title -eq $title } | Select-Object -First 1
                 if (-not $pending) {
                     throw "security-watch has no list of $Ref as this checkout builds it: build first (the build sends it), then release."
                 }
@@ -156,9 +170,14 @@ function Test-SecurityWatch {
         return
     }
 
+    if ($sendFirst) {
+        Write-Host "security-watch: this checkout's list of $Ref is not the one it holds; this one is sent and checked first." -ForegroundColor Cyan
+        Send-SecurityWatchInventory -Ref $own
+        return
+    }
     $mine = if ($status) { @($status.refs) | Where-Object { $_.ref -eq $Ref } | Select-Object -First 1 }
     if (-not $mine) {
-        Write-Host "security-watch: no list of $Ref yet; it is sent after this build." -ForegroundColor Yellow
+        Write-Host "security-watch: no list of $Ref yet; lists are sent for main, develop and releases." -ForegroundColor Yellow
         return
     }
     Assert-SecurityWatchRef -Mine $mine -Ref $Ref
@@ -260,6 +279,12 @@ function Get-SecurityWatchInventory {
     }
 }
 
+function Test-SecurityWatchSends {
+    <# Whether this ref's list is sent: main, develop and release tags alone, a working branch being nobody's install, and never from GitHub Actions. #>
+    param([Parameter(Mandatory = $true)]$Ref)
+    return ($Ref.Type -eq "release" -or $Ref.Name -in @("main", "develop")) -and $env:GITHUB_ACTIONS -ne "true"
+}
+
 function Send-SecurityWatchInventory {
     <#
     Sends this checkout's list of libraries to security-watch, when it is not
@@ -268,12 +293,12 @@ function Send-SecurityWatchInventory {
     #>
     param($Ref)
     if (-not $Ref) { $Ref = Get-SecurityWatchRef }
-    if ($Ref.Type -ne "release" -and $Ref.Name -notin @("main", "develop")) {
-        Write-Host "security-watch: lists are sent for main, develop and releases; $($Ref.Name) is not sent." -ForegroundColor DarkGray
-        return
-    }
-    if ($env:GITHUB_ACTIONS -eq "true") {
-        Write-Host "security-watch: GitHub Actions only asks; the lists are sent by the builds and releases made on a machine." -ForegroundColor DarkGray
+    if (-not (Test-SecurityWatchSends $Ref)) {
+        if ($env:GITHUB_ACTIONS -eq "true") {
+            Write-Host "security-watch: GitHub Actions only asks; the lists are sent by the builds and releases made on a machine." -ForegroundColor DarkGray
+        } else {
+            Write-Host "security-watch: lists are sent for main, develop and releases; $($Ref.Name) is not sent." -ForegroundColor DarkGray
+        }
         return
     }
 

@@ -27,7 +27,9 @@ libraries travels.
    against .NET's release metadata. It runs as soon as a list arrives, and
    every morning for the advisories published since.
 3. **A project asks before every build**: its `status/<project>.json`, the
-   ref it is building, and stops on anything moderate or worse.
+   ref it is building, and stops on anything moderate or worse. When the
+   list security-watch holds is not the one the build uses, the build sends
+   its own first and is judged on that one's answer.
 
 ```json
 {
