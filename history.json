@@ -12,7 +12,7 @@
       "fixedIn": "SDK 10.0.403",
       "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
       "opened": "2026-10-25",
-      "lastSeen": "2026-10-25",
+      "lastSeen": "2026-10-26",
       "where": [
         "main",
         "v1.0.51",
@@ -31,9 +31,8 @@
       "fixedIn": "SDK 10.0.403",
       "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
       "opened": "2026-10-25",
-      "lastSeen": "2026-10-25",
+      "lastSeen": "2026-10-26",
       "where": [
-        "main",
         "v1.6.4.10",
         "v1.6.4.11",
         "v1.6.4.8"
