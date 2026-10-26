@@ -1,9 +1,9 @@
 {
   "project": "keyplus",
-  "ref": "v1.0.54",
+  "ref": "v1.0.57",
   "type": "release",
-  "commit": "e6074b4",
-  "sent": "2026-10-26T00:42:01Z",
+  "commit": "88b8830",
+  "sent": "2026-10-26T01:32:07Z",
   "packages": [
     {
       "ecosystem": "NuGet",
