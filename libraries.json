@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-27T10:41:04Z",
+  "checked": "2026-10-28T11:25:05Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1866,7 +1866,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK",
       "version": "1.7.250909003",
-      "latest": "2.5.1",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@v1.6.4.11"
@@ -1876,7 +1876,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK",
       "version": "1.8.260529003",
-      "latest": "2.5.1",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1889,7 +1889,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.AI",
       "version": "1.8.76",
-      "latest": "2.5.5",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1902,7 +1902,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Base",
       "version": "1.8.251216001",
-      "latest": "2.0.4",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1915,7 +1915,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.DWrite",
       "version": "1.8.25122902",
-      "latest": "2.1.0",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1928,7 +1928,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Foundation",
       "version": "1.8.260527000",
-      "latest": "2.3.12",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1941,7 +1941,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.InteractiveExperiences",
       "version": "1.8.260525001",
-      "latest": "2.1.9",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1954,7 +1954,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.ML",
       "version": "1.8.2197",
-      "latest": "2.1.94",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1967,7 +1967,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Runtime",
       "version": "1.8.260529003",
-      "latest": "2.5.1",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1980,7 +1980,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Widgets",
       "version": "1.8.251231004",
-      "latest": "2.0.5",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1993,7 +1993,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.WinUI",
       "version": "1.8.260528001",
-      "latest": "2.3.9",
+      "latest": "2.6.4",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
