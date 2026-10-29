@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-28T15:42:28Z",
+  "checked": "2026-10-29T03:04:18Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -31,6 +31,16 @@
         "wslc-ai-agent@v1.7.0",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Google.Protobuf",
+      "version": "3.30.2",
+      "latest": "3.36.2",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
       ]
     },
     {
@@ -989,7 +999,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.IO.RecyclableMemoryStream",
       "version": "3.0.1",
-      "latest": "3.0.1",
+      "latest": "4.0.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1181,6 +1191,16 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.ML.Tokenizers",
+      "version": "2.0.1",
+      "latest": "2.0.1",
+      "vulnerabilities": [],
+      "usedBy": [
+        "keyplus@main"
+      ]
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.NET.ILLink.Tasks",
       "version": "10.0.14",
       "latest": "10.0.14",
@@ -1299,7 +1319,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Windows.SDK.BuildTools",
       "version": "10.0.26100.8249",
-      "latest": "10.0.28000.2705",
+      "latest": "10.0.28000.2957",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",

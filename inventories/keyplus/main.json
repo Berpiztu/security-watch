@@ -2,9 +2,15 @@
   "project": "keyplus",
   "ref": "main",
   "type": "branch",
-  "commit": "b08db71",
-  "sent": "2026-10-26T00:37:59Z",
+  "commit": "d3ac52c",
+  "sent": "2026-10-29T03:03:44Z",
   "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "Google.Protobuf",
+      "version": "3.30.2",
+      "direct": false
+    },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.ML.OnnxRuntime",
@@ -16,6 +22,12 @@
       "name": "Microsoft.ML.OnnxRuntime.Managed",
       "version": "1.31.0",
       "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.ML.Tokenizers",
+      "version": "2.0.1",
+      "direct": true
     },
     {
       "ecosystem": "NuGet",
