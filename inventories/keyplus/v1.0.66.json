@@ -1,10 +1,16 @@
 {
   "project": "keyplus",
-  "ref": "v1.0.63",
+  "ref": "v1.0.66",
   "type": "release",
-  "commit": "4ac462d",
-  "sent": "2026-10-27T10:08:57Z",
+  "commit": "c63da1a",
+  "sent": "2026-10-29T03:06:34Z",
   "packages": [
+    {
+      "ecosystem": "NuGet",
+      "name": "Google.Protobuf",
+      "version": "3.30.2",
+      "direct": false
+    },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.ML.OnnxRuntime",
@@ -16,6 +22,12 @@
       "name": "Microsoft.ML.OnnxRuntime.Managed",
       "version": "1.31.0",
       "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.ML.Tokenizers",
+      "version": "2.0.1",
+      "direct": true
     },
     {
       "ecosystem": "NuGet",
