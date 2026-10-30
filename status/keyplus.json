@@ -1,7 +1,30 @@
 {
   "project": "keyplus",
-  "checked": "2026-10-30T11:27:41Z",
+  "checked": "2026-10-30T20:29:34Z",
   "refs": [
+    {
+      "ref": "develop",
+      "type": "branch",
+      "commit": "258c495",
+      "sent": "2026-10-30T20:29:00Z",
+      "blocking": false,
+      "findings": [],
+      "updates": [
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.ML.OnnxRuntime",
+          "version": "1.31.0",
+          "latest": "1.31.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "NAudio.WinMM",
+          "version": "2.2.1",
+          "latest": "3.3.0"
+        }
+      ],
+      "images": []
+    },
     {
       "ref": "main",
       "type": "branch",
