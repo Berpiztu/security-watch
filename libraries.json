@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-30T20:29:34Z",
+  "checked": "2026-10-31T00:06:04Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -10,9 +10,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
         "keyplus@v1.0.66",
+        "keyplus@v1.0.67",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -43,7 +43,8 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1175,9 +1176,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1189,9 +1190,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1203,7 +1204,8 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1215,9 +1217,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
         "keyplus@v1.0.66",
+        "keyplus@v1.0.67",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -1556,9 +1558,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1570,9 +1572,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1598,9 +1600,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1612,9 +1614,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1682,9 +1684,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
         "keyplus@v1.0.66",
+        "keyplus@v1.0.67",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -1701,9 +1703,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1715,9 +1717,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1729,9 +1731,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1743,9 +1745,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
@@ -1757,9 +1759,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.64",
         "keyplus@v1.0.65",
-        "keyplus@v1.0.66"
+        "keyplus@v1.0.66",
+        "keyplus@v1.0.67"
       ]
     },
     {
