@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-02T13:38:09Z",
+  "checked": "2026-11-03T11:17:25Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -10,9 +10,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
         "keyplus@v1.0.72",
+        "keyplus@v1.0.73",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -43,9 +43,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1177,9 +1177,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1191,9 +1191,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1205,9 +1205,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1219,9 +1219,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
         "keyplus@v1.0.72",
+        "keyplus@v1.0.73",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -1345,7 +1345,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Windows.SDK.BuildTools.MSIX",
       "version": "1.7.20250829.1",
-      "latest": "1.7.261008100",
+      "latest": "1.7.261102100",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1359,7 +1359,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK",
       "version": "1.8.260529003",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1373,7 +1373,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.AI",
       "version": "1.8.76",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1387,7 +1387,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Base",
       "version": "1.8.251216001",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1401,7 +1401,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.DWrite",
       "version": "1.8.25122902",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1415,7 +1415,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Foundation",
       "version": "1.8.260527000",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1429,7 +1429,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.InteractiveExperiences",
       "version": "1.8.260525001",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1443,7 +1443,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.ML",
       "version": "1.8.2197",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1457,7 +1457,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Runtime",
       "version": "1.8.260529003",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1471,7 +1471,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.Widgets",
       "version": "1.8.251231004",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1485,7 +1485,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.WindowsAppSDK.WinUI",
       "version": "1.8.260528001",
-      "latest": "2.6.4",
+      "latest": "2.6.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1499,7 +1499,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol",
       "version": "2.2.0",
-      "latest": "2.3.0",
+      "latest": "2.3.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1513,7 +1513,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol.AspNetCore",
       "version": "2.2.0",
-      "latest": "2.3.0",
+      "latest": "2.3.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1527,7 +1527,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol.Core",
       "version": "2.2.0",
-      "latest": "2.3.0",
+      "latest": "2.3.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1560,9 +1560,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1574,9 +1574,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1602,9 +1602,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1616,9 +1616,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1686,9 +1686,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
         "keyplus@v1.0.72",
+        "keyplus@v1.0.73",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0",
@@ -1705,9 +1705,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1719,9 +1719,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1733,9 +1733,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1747,9 +1747,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {
@@ -1761,9 +1761,9 @@
       "usedBy": [
         "keyplus@develop",
         "keyplus@main",
-        "keyplus@v1.0.70",
         "keyplus@v1.0.71",
-        "keyplus@v1.0.72"
+        "keyplus@v1.0.72",
+        "keyplus@v1.0.73"
       ]
     },
     {

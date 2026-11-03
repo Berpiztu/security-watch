@@ -1,6 +1,6 @@
 {
   "project": "keyplus",
-  "checked": "2026-11-02T13:38:09Z",
+  "checked": "2026-11-03T11:17:25Z",
   "refs": [
     {
       "ref": "develop",
@@ -49,6 +49,29 @@
       "images": []
     },
     {
+      "ref": "v1.0.73",
+      "type": "release",
+      "commit": "c20ec8e",
+      "sent": "2026-11-03T11:16:52Z",
+      "blocking": false,
+      "findings": [],
+      "updates": [
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.ML.OnnxRuntime",
+          "version": "1.31.0",
+          "latest": "1.31.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "NAudio.WinMM",
+          "version": "2.2.1",
+          "latest": "3.3.0"
+        }
+      ],
+      "images": []
+    },
+    {
       "ref": "v1.0.72",
       "type": "release",
       "commit": "da627b3",
@@ -76,29 +99,6 @@
       "type": "release",
       "commit": "659954f",
       "sent": "2026-11-01T07:44:45Z",
-      "blocking": false,
-      "findings": [],
-      "updates": [
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.ML.OnnxRuntime",
-          "version": "1.31.0",
-          "latest": "1.31.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "NAudio.WinMM",
-          "version": "2.2.1",
-          "latest": "3.3.0"
-        }
-      ],
-      "images": []
-    },
-    {
-      "ref": "v1.0.70",
-      "type": "release",
-      "commit": "223313b",
-      "sent": "2026-10-31T04:53:13Z",
       "blocking": false,
       "findings": [],
       "updates": [
