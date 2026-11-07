@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-06T13:00:45Z",
+  "checked": "2026-11-07T11:47:42Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1499,7 +1499,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol",
       "version": "2.2.0",
-      "latest": "2.3.1",
+      "latest": "2.4.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1513,7 +1513,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol.AspNetCore",
       "version": "2.2.0",
-      "latest": "2.3.1",
+      "latest": "2.4.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1527,7 +1527,7 @@
       "ecosystem": "NuGet",
       "name": "ModelContextProtocol.Core",
       "version": "2.2.0",
-      "latest": "2.3.1",
+      "latest": "2.4.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
