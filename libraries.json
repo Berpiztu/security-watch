@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-08T11:59:43Z",
+  "checked": "2026-11-09T14:00:10Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -3842,7 +3842,7 @@
       "ecosystem": "NuGet",
       "name": "xunit.analyzers",
       "version": "1.18.0",
-      "latest": "2.2.0",
+      "latest": "2.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
