@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-09T14:00:10Z",
+  "checked": "2026-11-10T04:59:00Z",
   "refs": [
     {
       "ref": "main",
@@ -20,13 +20,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
@@ -120,13 +120,113 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.NET.Test.Sdk",
+          "version": "17.14.1",
+          "latest": "18.11.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Playwright",
+          "version": "1.62.0",
+          "latest": "1.64.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "ModelContextProtocol",
+          "version": "2.2.0",
+          "latest": "2.4.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "ModelContextProtocol.AspNetCore",
+          "version": "2.2.0",
+          "latest": "2.4.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "MudBlazor",
+          "version": "9.10.0",
+          "latest": "9.12.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "WixToolset.UI.wixext",
+          "version": "5.0.2",
+          "latest": "7.0.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "WixToolset.Util.wixext",
+          "version": "5.0.2",
+          "latest": "7.0.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Xamarin.AndroidX.Fragment.Ktx",
+          "version": "1.9.0",
+          "latest": "1.9.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "xunit.runner.visualstudio",
+          "version": "3.1.4",
+          "latest": "4.0.1"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "YamlDotNet",
+          "version": "16.2.1",
+          "latest": "18.1.0"
+        },
+        {
+          "ecosystem": "PyPI",
+          "package": "redis",
+          "version": "5.0.8",
+          "latest": "8.1.0"
+        }
+      ],
+      "images": [
+        "nginx:stable",
+        "nvidia/cuda:12.8.1-devel-ubuntu24.04",
+        "python:3.12-slim",
+        "redis:7-alpine"
+      ]
+    },
+    {
+      "ref": "v1.8.0",
+      "type": "release",
+      "commit": "7f875f1",
+      "sent": "2026-11-10T04:58:29Z",
+      "blocking": false,
+      "findings": [],
+      "updates": [
+        {
+          "ecosystem": "NuGet",
+          "package": "coverlet.collector",
+          "version": "6.0.4",
+          "latest": "10.1.0"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.AspNetCore.Components.WebView.Maui",
+          "version": "10.0.110",
+          "latest": "10.0.130"
+        },
+        {
+          "ecosystem": "NuGet",
+          "package": "Microsoft.Maui.Controls",
+          "version": "10.0.110",
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
@@ -220,13 +320,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
@@ -320,113 +420,13 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.AspNetCore.Components.WebView.Maui",
           "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
           "package": "Microsoft.Maui.Controls",
           "version": "10.0.110",
-          "latest": "10.0.120"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.NET.Test.Sdk",
-          "version": "17.14.1",
-          "latest": "18.11.0"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.Playwright",
-          "version": "1.62.0",
-          "latest": "1.64.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "ModelContextProtocol",
-          "version": "2.2.0",
-          "latest": "2.4.0"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "ModelContextProtocol.AspNetCore",
-          "version": "2.2.0",
-          "latest": "2.4.0"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "MudBlazor",
-          "version": "9.10.0",
-          "latest": "9.12.0"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "WixToolset.UI.wixext",
-          "version": "5.0.2",
-          "latest": "7.0.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "WixToolset.Util.wixext",
-          "version": "5.0.2",
-          "latest": "7.0.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Xamarin.AndroidX.Fragment.Ktx",
-          "version": "1.9.0",
-          "latest": "1.9.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "xunit.runner.visualstudio",
-          "version": "3.1.4",
-          "latest": "4.0.1"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "YamlDotNet",
-          "version": "16.2.1",
-          "latest": "18.1.0"
-        },
-        {
-          "ecosystem": "PyPI",
-          "package": "redis",
-          "version": "5.0.8",
-          "latest": "8.1.0"
-        }
-      ],
-      "images": [
-        "nginx:stable",
-        "nvidia/cuda:12.8.1-devel-ubuntu24.04",
-        "python:3.12-slim",
-        "redis:7-alpine"
-      ]
-    },
-    {
-      "ref": "v1.7.0",
-      "type": "release",
-      "commit": "9aaf925",
-      "sent": "2026-10-26T00:07:58Z",
-      "blocking": false,
-      "findings": [],
-      "updates": [
-        {
-          "ecosystem": "NuGet",
-          "package": "coverlet.collector",
-          "version": "6.0.4",
-          "latest": "10.1.0"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.AspNetCore.Components.WebView.Maui",
-          "version": "10.0.110",
-          "latest": "10.0.120"
-        },
-        {
-          "ecosystem": "NuGet",
-          "package": "Microsoft.Maui.Controls",
-          "version": "10.0.110",
-          "latest": "10.0.120"
+          "latest": "10.0.130"
         },
         {
           "ecosystem": "NuGet",
