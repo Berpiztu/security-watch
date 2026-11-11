@@ -35,6 +35,48 @@
       "where": [
         "v1.6.4.11"
       ]
+    },
+    {
+      "project": "keyplus",
+      "key": "dotnet-sdk|.NET SDK|10.0.403|dotnet-10.0.15",
+      "ecosystem": "dotnet-sdk",
+      "package": ".NET SDK",
+      "version": "10.0.403",
+      "advisory": "dotnet-10.0.15",
+      "cve": "CVE-2026-114146, CVE-2026-109475, CVE-2026-114147, CVE-2026-105544, CVE-2026-114149, CVE-2026-114151, CVE-2026-114152, CVE-2026-114154, CVE-2026-109476, CVE-2026-118745, CVE-2026-114155, CVE-2026-70175, CVE-2026-118747, CVE-2026-114157, CVE-2026-114158, CVE-2026-114159",
+      "severity": "security-release",
+      "fixedIn": "SDK 10.0.404",
+      "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.15/10.0.15.md",
+      "opened": "2026-11-11",
+      "lastSeen": "2026-11-11",
+      "where": [
+        "develop",
+        "main",
+        "v1.0.73",
+        "v1.0.74",
+        "v1.0.75"
+      ]
+    },
+    {
+      "project": "wslc-ai-agent",
+      "key": "dotnet-sdk|.NET SDK|10.0.403|dotnet-10.0.15",
+      "ecosystem": "dotnet-sdk",
+      "package": ".NET SDK",
+      "version": "10.0.403",
+      "advisory": "dotnet-10.0.15",
+      "cve": "CVE-2026-114146, CVE-2026-109475, CVE-2026-114147, CVE-2026-105544, CVE-2026-114149, CVE-2026-114151, CVE-2026-114152, CVE-2026-114154, CVE-2026-109476, CVE-2026-118745, CVE-2026-114155, CVE-2026-70175, CVE-2026-118747, CVE-2026-114157, CVE-2026-114158, CVE-2026-114159",
+      "severity": "security-release",
+      "fixedIn": "SDK 10.0.404",
+      "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.15/10.0.15.md",
+      "opened": "2026-11-11",
+      "lastSeen": "2026-11-11",
+      "where": [
+        "develop",
+        "main",
+        "v1.7.0.1",
+        "v1.7.0.3",
+        "v1.8.0"
+      ]
     }
   ]
 }
