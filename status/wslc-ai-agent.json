@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-11T12:48:00Z",
+  "checked": "2026-11-12T13:50:28Z",
   "refs": [
     {
       "ref": "main",
@@ -89,7 +89,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.NET.Test.Sdk",
           "version": "17.14.1",
-          "latest": "18.11.1"
+          "latest": "18.12.0"
         },
         {
           "ecosystem": "NuGet",
@@ -252,7 +252,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.NET.Test.Sdk",
           "version": "17.14.1",
-          "latest": "18.11.1"
+          "latest": "18.12.0"
         },
         {
           "ecosystem": "NuGet",
@@ -415,7 +415,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.NET.Test.Sdk",
           "version": "17.14.1",
-          "latest": "18.11.1"
+          "latest": "18.12.0"
         },
         {
           "ecosystem": "NuGet",
@@ -578,7 +578,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.NET.Test.Sdk",
           "version": "17.14.1",
-          "latest": "18.11.1"
+          "latest": "18.12.0"
         },
         {
           "ecosystem": "NuGet",
@@ -741,7 +741,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.NET.Test.Sdk",
           "version": "17.14.1",
-          "latest": "18.11.1"
+          "latest": "18.12.0"
         },
         {
           "ecosystem": "NuGet",
