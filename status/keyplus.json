@@ -1,6 +1,6 @@
 {
   "project": "keyplus",
-  "checked": "2026-11-12T13:50:28Z",
+  "checked": "2026-11-13T13:13:06Z",
   "refs": [
     {
       "ref": "develop",
@@ -29,7 +29,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.ML.OnnxRuntime",
           "version": "1.31.0",
-          "latest": "1.31.1"
+          "latest": "1.32.0"
         },
         {
           "ecosystem": "NuGet",
@@ -79,7 +79,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.ML.OnnxRuntime",
           "version": "1.31.0",
-          "latest": "1.31.1"
+          "latest": "1.32.0"
         },
         {
           "ecosystem": "NuGet",
@@ -129,7 +129,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.ML.OnnxRuntime",
           "version": "1.31.0",
-          "latest": "1.31.1"
+          "latest": "1.32.0"
         },
         {
           "ecosystem": "NuGet",
@@ -179,7 +179,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.ML.OnnxRuntime",
           "version": "1.31.0",
-          "latest": "1.31.1"
+          "latest": "1.32.0"
         },
         {
           "ecosystem": "NuGet",
@@ -229,7 +229,7 @@
           "ecosystem": "NuGet",
           "package": "Microsoft.ML.OnnxRuntime",
           "version": "1.31.0",
-          "latest": "1.31.1"
+          "latest": "1.32.0"
         },
         {
           "ecosystem": "NuGet",
