@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T21:21:54Z",
+  "checked": "2026-11-13T21:24:53Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -23,7 +23,6 @@
         "keyplus@v1.0.74",
         "keyplus@v1.0.75",
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -35,7 +34,8 @@
       "latest": "10.0.404",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -75,9 +75,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -88,7 +88,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -100,7 +99,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -111,7 +111,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -123,7 +122,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -134,7 +134,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -146,7 +145,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -157,7 +157,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -169,7 +168,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -180,7 +180,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -192,7 +191,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -203,7 +203,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -215,7 +214,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -226,7 +226,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -238,7 +237,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -249,7 +249,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -261,7 +260,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -272,7 +272,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -284,7 +283,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -296,9 +296,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -310,9 +310,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -323,7 +323,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -335,7 +334,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -346,7 +346,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -358,7 +357,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -369,7 +369,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -381,7 +380,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -392,7 +392,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -404,7 +403,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -416,9 +416,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -430,9 +430,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -444,9 +444,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -458,9 +458,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -471,7 +471,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -483,7 +482,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -495,9 +495,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -508,7 +508,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -520,7 +519,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -531,7 +531,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -543,7 +542,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -554,7 +554,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -566,7 +565,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -577,7 +577,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -589,7 +588,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -601,9 +601,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -614,7 +614,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -626,7 +625,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -638,9 +638,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -651,7 +651,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -663,7 +662,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -674,7 +674,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -686,7 +685,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -697,7 +697,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -709,7 +708,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -721,9 +721,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -734,7 +734,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -746,7 +745,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -757,7 +757,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -769,7 +768,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -780,7 +780,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -792,7 +791,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -804,9 +804,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -817,7 +817,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -829,7 +828,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -841,9 +841,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -855,9 +855,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -868,7 +868,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -880,7 +879,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -892,9 +892,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -906,9 +906,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -920,9 +920,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -933,7 +933,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -945,7 +944,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -957,9 +957,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -970,7 +970,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -982,7 +981,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -993,7 +993,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1005,7 +1004,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1017,9 +1017,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1031,9 +1031,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1044,7 +1044,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1056,7 +1055,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1068,9 +1068,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1082,9 +1082,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1095,7 +1095,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1107,7 +1106,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1119,9 +1119,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1132,7 +1132,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1144,7 +1143,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1155,7 +1155,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1167,7 +1166,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1178,7 +1178,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1190,7 +1189,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1201,7 +1201,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1213,7 +1212,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1224,7 +1224,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1236,7 +1235,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1247,7 +1247,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1259,7 +1258,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1271,9 +1271,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1284,7 +1284,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1296,7 +1295,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1307,7 +1307,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1319,7 +1318,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1331,9 +1331,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1344,7 +1344,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1356,7 +1355,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1367,7 +1367,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1379,7 +1378,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1391,9 +1391,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1405,9 +1405,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1418,7 +1418,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1430,7 +1429,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1441,7 +1441,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1453,7 +1452,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1465,9 +1465,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1479,9 +1479,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1493,9 +1493,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1507,9 +1507,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1521,9 +1521,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1535,9 +1535,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1549,9 +1549,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1563,9 +1563,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1577,9 +1577,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1637,7 +1637,6 @@
         "keyplus@v1.0.74",
         "keyplus@v1.0.75",
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1649,7 +1648,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1661,9 +1661,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1675,9 +1675,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1688,7 +1688,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -1700,7 +1699,8 @@
       "latest": "3.11.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1712,9 +1712,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1726,9 +1726,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1740,9 +1740,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1754,9 +1754,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1768,9 +1768,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1782,9 +1782,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1796,9 +1796,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1810,9 +1810,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1824,9 +1824,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1838,9 +1838,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1852,9 +1852,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1866,9 +1866,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1880,9 +1880,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1894,9 +1894,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1908,9 +1908,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1922,9 +1922,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1936,9 +1936,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1950,9 +1950,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1964,9 +1964,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -1978,9 +1978,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2020,9 +2020,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2062,9 +2062,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2076,9 +2076,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2090,9 +2090,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2103,7 +2103,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
       ]
@@ -2115,7 +2114,8 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
-        "wslc-ai-agent@main"
+        "wslc-ai-agent@main",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2132,9 +2132,9 @@
         "keyplus@v1.0.75",
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2216,9 +2216,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2230,9 +2230,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2244,9 +2244,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2258,9 +2258,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2272,9 +2272,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2286,9 +2286,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2300,9 +2300,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2314,9 +2314,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2328,9 +2328,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2342,9 +2342,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2356,9 +2356,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2370,9 +2370,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2384,9 +2384,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2398,9 +2398,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2412,9 +2412,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2426,9 +2426,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2440,9 +2440,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2454,9 +2454,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2468,9 +2468,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2482,9 +2482,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2496,9 +2496,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2510,9 +2510,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2524,9 +2524,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2538,9 +2538,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2552,9 +2552,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2566,9 +2566,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2580,9 +2580,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2594,9 +2594,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2608,9 +2608,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2622,9 +2622,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2636,9 +2636,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2650,9 +2650,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2664,9 +2664,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2678,9 +2678,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2692,9 +2692,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2706,9 +2706,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2720,9 +2720,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2734,9 +2734,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2748,9 +2748,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2762,9 +2762,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2776,9 +2776,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2790,9 +2790,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2804,9 +2804,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2818,9 +2818,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2832,9 +2832,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2846,9 +2846,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2860,9 +2860,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2874,9 +2874,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2888,9 +2888,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2902,9 +2902,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2916,9 +2916,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2930,9 +2930,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2944,9 +2944,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2958,9 +2958,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2972,9 +2972,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -2986,9 +2986,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3000,9 +3000,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3014,9 +3014,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3028,9 +3028,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3042,9 +3042,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3056,9 +3056,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3070,9 +3070,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3084,9 +3084,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3098,9 +3098,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3112,9 +3112,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3126,9 +3126,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3140,9 +3140,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3154,9 +3154,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3168,9 +3168,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3182,9 +3182,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3196,9 +3196,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3210,9 +3210,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3224,9 +3224,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3238,9 +3238,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3252,9 +3252,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3266,9 +3266,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3280,9 +3280,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3294,9 +3294,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3308,9 +3308,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3322,9 +3322,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3336,9 +3336,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3350,9 +3350,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3364,9 +3364,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3378,9 +3378,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3392,9 +3392,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3406,9 +3406,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3420,9 +3420,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3434,9 +3434,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3448,9 +3448,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3462,9 +3462,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3476,9 +3476,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3490,9 +3490,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3504,9 +3504,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3518,9 +3518,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3532,9 +3532,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3546,9 +3546,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3560,9 +3560,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3574,9 +3574,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3588,9 +3588,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3602,9 +3602,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3616,9 +3616,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3630,9 +3630,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3644,9 +3644,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3658,9 +3658,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3672,9 +3672,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3686,9 +3686,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3700,9 +3700,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3714,9 +3714,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3728,9 +3728,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3742,9 +3742,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3756,9 +3756,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3770,9 +3770,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3784,9 +3784,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3798,9 +3798,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3812,9 +3812,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3826,9 +3826,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3840,9 +3840,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3854,9 +3854,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3868,9 +3868,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3882,9 +3882,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3896,9 +3896,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3910,9 +3910,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3924,9 +3924,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3938,9 +3938,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3952,9 +3952,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3966,9 +3966,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3980,9 +3980,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -3994,9 +3994,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4008,9 +4008,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4022,9 +4022,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4036,9 +4036,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4050,9 +4050,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4064,9 +4064,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4078,9 +4078,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4092,9 +4092,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4106,9 +4106,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4120,9 +4120,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4134,9 +4134,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4148,9 +4148,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4162,9 +4162,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4176,9 +4176,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4190,9 +4190,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4204,9 +4204,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4218,9 +4218,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4232,9 +4232,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4246,9 +4246,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4260,9 +4260,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4274,9 +4274,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4288,9 +4288,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4302,9 +4302,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4316,9 +4316,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4330,9 +4330,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4344,9 +4344,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4358,9 +4358,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4372,9 +4372,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4386,9 +4386,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     },
     {
@@ -4400,9 +4400,9 @@
       "usedBy": [
         "wslc-ai-agent@develop",
         "wslc-ai-agent@main",
-        "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
-        "wslc-ai-agent@v1.8.0"
+        "wslc-ai-agent@v1.8.0",
+        "wslc-ai-agent@v1.8.0.3"
       ]
     }
   ]
