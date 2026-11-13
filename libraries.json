@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T20:08:35Z",
+  "checked": "2026-11-13T21:21:54Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -111,7 +111,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -135,7 +134,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -159,7 +157,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -183,7 +180,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -207,7 +203,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -328,7 +323,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -477,7 +471,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -515,7 +508,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -539,7 +531,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -706,7 +697,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -744,7 +734,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -791,7 +780,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -829,7 +817,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1108,7 +1095,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1146,7 +1132,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1216,7 +1201,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1300,7 +1284,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1324,7 +1307,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1362,7 +1344,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1386,7 +1367,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1438,7 +1418,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
@@ -1658,7 +1637,6 @@
         "keyplus@v1.0.74",
         "keyplus@v1.0.75",
         "wslc-ai-agent@develop",
-        "wslc-ai-agent@main",
         "wslc-ai-agent@v1.7.0.1",
         "wslc-ai-agent@v1.7.0.3",
         "wslc-ai-agent@v1.8.0"
