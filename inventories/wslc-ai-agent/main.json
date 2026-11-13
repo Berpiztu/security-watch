@@ -2,8 +2,8 @@
   "project": "wslc-ai-agent",
   "ref": "main",
   "type": "branch",
-  "commit": "48a8bbb",
-  "sent": "2026-10-26T00:03:57Z",
+  "commit": "7f875f1",
+  "sent": "2026-11-13T20:07:52Z",
   "packages": [
     {
       "ecosystem": "NuGet",
@@ -20,7 +20,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.App.Internal.Assets",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -31,8 +31,20 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Authorization",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -43,32 +55,50 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Analyzers",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.Forms",
       "version": "10.0.14",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Forms",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.Web",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Components.Web",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.WebAssembly",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Components.WebAssembly.Server",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": true
     },
     {
@@ -91,20 +121,26 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.AspNetCore.Metadata",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.Mvc.Testing",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.OpenApi",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.AspNetCore.TestHost",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -139,6 +175,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.Abstractions",
       "version": "10.0.10",
       "direct": false
@@ -147,6 +189,12 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.Abstractions",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -157,14 +205,20 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Configuration.Binder",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.CommandLine",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -176,7 +230,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.FileExtensions",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -188,13 +242,13 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.Json",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Configuration.UserSecrets",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -205,6 +259,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "version": "10.0.10",
       "direct": false
@@ -217,8 +277,14 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.DependencyModel",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -229,6 +295,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Diagnostics.Abstractions",
       "version": "10.0.10",
       "direct": false
@@ -237,6 +309,12 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Diagnostics.Abstractions",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -254,7 +332,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.FileProviders.Abstractions",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -278,7 +356,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.FileProviders.Physical",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -290,13 +368,13 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.FileSystemGlobbing",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Hosting",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -314,7 +392,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Hosting.Abstractions",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -337,6 +415,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.Abstractions",
       "version": "10.0.10",
       "direct": false
@@ -349,32 +433,44 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.Configuration",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.Console",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.Debug",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Logging.Debug",
+      "version": "10.0.15",
       "direct": true
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.EventLog",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Logging.EventSource",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -387,6 +483,12 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Options",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -397,6 +499,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Primitives",
       "version": "10.0.10",
       "direct": false
@@ -409,8 +517,20 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.Validation",
       "version": "10.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Microsoft.Extensions.Validation",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -433,8 +553,14 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.JSInterop",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.JSInterop.WebAssembly",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -499,6 +625,12 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "version": "10.0.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Microsoft.NET.Sdk.WebAssembly.Pack",
       "version": "10.0.14",
       "direct": false
@@ -512,7 +644,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.OpenApi",
-      "version": "2.12.2",
+      "version": "2.13.0",
       "direct": false
     },
     {
@@ -662,7 +794,7 @@
     {
       "ecosystem": "NuGet",
       "name": "System.Diagnostics.EventLog",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -1614,7 +1746,7 @@
       "direct": true
     }
   ],
-  "dotnetSdk": "10.0.403",
+  "dotnetSdk": "10.0.404",
   "images": [
     "nginx:stable",
     "nvidia/cuda:12.8.1-devel-ubuntu24.04",
