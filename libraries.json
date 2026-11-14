@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T21:24:53Z",
+  "checked": "2026-11-14T05:52:55Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1632,7 +1632,6 @@
       "vulnerabilities": [],
       "usedBy": [
         "keyplus@develop",
-        "keyplus@main",
         "keyplus@v1.0.73",
         "keyplus@v1.0.74",
         "keyplus@v1.0.75",
@@ -1648,6 +1647,7 @@
       "latest": "11.0.0",
       "vulnerabilities": [],
       "usedBy": [
+        "keyplus@main",
         "wslc-ai-agent@main",
         "wslc-ai-agent@v1.8.0.3"
       ]

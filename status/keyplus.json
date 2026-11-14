@@ -1,12 +1,12 @@
 {
   "project": "keyplus",
-  "checked": "2026-11-13T21:24:53Z",
+  "checked": "2026-11-14T05:52:55Z",
   "refs": [
     {
-      "ref": "develop",
+      "ref": "main",
       "type": "branch",
-      "commit": "258c495",
-      "sent": "2026-10-30T20:29:00Z",
+      "commit": "a76514c",
+      "sent": "2026-11-14T05:52:15Z",
       "blocking": true,
       "worst": "security-release",
       "findings": [
@@ -53,10 +53,10 @@
       "images": []
     },
     {
-      "ref": "main",
+      "ref": "develop",
       "type": "branch",
-      "commit": "d3ac52c",
-      "sent": "2026-10-29T03:03:44Z",
+      "commit": "258c495",
+      "sent": "2026-10-30T20:29:00Z",
       "blocking": true,
       "worst": "security-release",
       "findings": [
