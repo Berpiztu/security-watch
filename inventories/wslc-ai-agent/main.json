@@ -2,14 +2,20 @@
   "project": "wslc-ai-agent",
   "ref": "main",
   "type": "branch",
-  "commit": "cfd2450",
-  "sent": "2026-11-15T21:13:39Z",
+  "commit": "62b8986",
+  "sent": "2026-11-16T00:36:00Z",
   "packages": [
     {
       "ecosystem": "NuGet",
       "name": "coverlet.collector",
       "version": "6.0.4",
       "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "GoogleGson",
+      "version": "2.13.1.1",
+      "direct": false
     },
     {
       "ecosystem": "NuGet",
@@ -637,6 +643,18 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Square.OkIO",
+      "version": "3.17.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Square.OkIO.JVM",
+      "version": "3.17.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "System.ComponentModel.Annotations",
       "version": "5.0.0",
       "direct": false
@@ -667,9 +685,303 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.Annotations",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.DiskLruCache",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Android.Glide.GifDecoder",
+      "version": "4.16.0.14",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Activity",
+      "version": "1.13.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Activity.Ktx",
+      "version": "1.13.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation",
+      "version": "1.10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation.Experimental",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Annotation.Jvm",
+      "version": "1.10.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.AppCompat",
+      "version": "1.7.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.AppCompat.AppCompatResources",
+      "version": "1.7.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Arch.Core.Common",
+      "version": "2.2.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Arch.Core.Runtime",
+      "version": "2.2.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Browser",
+      "version": "1.8.0.11",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CardView",
+      "version": "1.0.0.36",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Collection",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Collection.Jvm",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Collection.Ktx",
       "version": "1.6.0.1",
       "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Compose.Runtime.Annotation",
+      "version": "1.11.3.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Compose.Runtime.Annotation.Android",
+      "version": "1.11.3.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Concurrent.Futures",
+      "version": "1.3.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ConstraintLayout",
+      "version": "2.2.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ConstraintLayout.Core",
+      "version": "1.1.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CoordinatorLayout",
+      "version": "1.3.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core",
+      "version": "1.19.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core.Core.Ktx",
+      "version": "1.19.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Core.ViewTree",
+      "version": "1.0.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CursorAdapter",
+      "version": "1.0.0.34",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CustomView",
+      "version": "1.2.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.CustomView.PoolingContainer",
+      "version": "1.1.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.Jvm",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.OkIO",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Core.OkIO.Jvm",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Core",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Core.Android",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.External.Protobuf",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DataStore.Preferences.Proto",
+      "version": "1.2.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DocumentFile",
+      "version": "1.1.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DrawerLayout",
+      "version": "1.2.0.18",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.DynamicAnimation",
+      "version": "1.1.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Emoji2",
+      "version": "1.5.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Emoji2.ViewsHelper",
+      "version": "1.5.0.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ExifInterface",
+      "version": "1.4.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Fragment",
+      "version": "1.9.0",
+      "direct": false
     },
     {
       "ecosystem": "NuGet",
@@ -679,9 +991,39 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Interpolator",
+      "version": "1.0.0.37",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Legacy.Support.Core.Utils",
+      "version": "1.0.0.37",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Common",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Common.Jvm",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Lifecycle.LiveData",
       "version": "2.11.0.1",
       "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.LiveData.Core",
+      "version": "2.11.0.1",
+      "direct": false
     },
     {
       "ecosystem": "NuGet",
@@ -697,9 +1039,513 @@
     },
     {
       "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Ktx",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.Runtime.Ktx.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModel.Ktx",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModelSavedState",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Lifecycle.ViewModelSavedState.Android",
+      "version": "2.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Loader",
+      "version": "1.2.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.LocalBroadcastManager",
+      "version": "1.1.0.25",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Common",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Common.Android",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Fragment",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Runtime",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.Runtime.Android",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Navigation.UI",
+      "version": "2.9.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.NavigationEvent",
+      "version": "1.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.NavigationEvent.Android",
+      "version": "1.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Print",
+      "version": "1.1.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ProfileInstaller.ProfileInstaller",
+      "version": "1.4.1.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.RecyclerView",
+      "version": "1.4.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ResourceInspection.Annotation",
+      "version": "1.0.1.22",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState.SavedState.Android",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SavedState.SavedState.Ktx",
+      "version": "1.5.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Security.SecurityCrypto",
+      "version": "1.1.0.4-alpha07",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SlidingPaneLayout",
+      "version": "1.2.0.22",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Startup.StartupRuntime",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.SwipeRefreshLayout",
+      "version": "1.1.0.29",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Tracing.Tracing",
+      "version": "2.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Tracing.Tracing.Android",
+      "version": "2.0.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Transition",
+      "version": "1.6.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VectorDrawable",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VectorDrawable.Animated",
+      "version": "1.2.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.VersionedParcelable",
+      "version": "1.2.1.6",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ViewPager",
+      "version": "1.1.0.7",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.ViewPager2",
+      "version": "1.1.0.8",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window.WindowCore",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.AndroidX.Window.WindowCore.Jvm",
+      "version": "1.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Build.Download",
+      "version": "0.11.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Annotations",
+      "version": "117.0.0.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Common",
+      "version": "122.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Components",
+      "version": "119.0.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Datatransport",
+      "version": "120.0.1.4",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders",
+      "version": "117.0.0.26",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders.JSON",
+      "version": "118.0.1.19",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Encoders.Proto",
+      "version": "116.0.0.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Iid.Interop",
+      "version": "117.1.0.27",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Installations",
+      "version": "119.1.2.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Installations.InterOp",
+      "version": "117.3.0.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Firebase.Measurement.Connector",
+      "version": "120.0.1.15",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Messaging",
       "version": "125.1.3",
       "direct": true
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportApi",
+      "version": "4.1.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportBackendCct",
+      "version": "4.1.1.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.DataTransport.TransportRuntime",
+      "version": "4.1.1.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Android.Material",
+      "version": "1.12.0.5",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Code.FindBugs.JSR305",
+      "version": "3.0.2.21",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Crypto.Tink.Android",
+      "version": "1.18.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.ErrorProne.Annotations",
+      "version": "2.50.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Google.Guava.ListenableFuture",
+      "version": "1.0.0.32",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Base",
+      "version": "118.10.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Basement",
+      "version": "118.11.0",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.CloudMessaging",
+      "version": "117.4.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Stats",
+      "version": "117.1.0.11",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.GooglePlayServices.Tasks",
+      "version": "118.4.1.3",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.JavaX.Inject",
+      "version": "1.0.0.24",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Jetbrains.Annotations",
+      "version": "26.1.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.JSpecify",
+      "version": "1.0.0.7",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib.Jdk7",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.Kotlin.StdLib.Jdk8",
+      "version": "2.4.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.AtomicFU",
+      "version": "0.33.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.AtomicFU.Jvm",
+      "version": "0.33.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Android",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Core",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Core.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Coroutines.Play.Services",
+      "version": "1.11.0.2",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Core",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Core.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Json",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Json.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Protobuf",
+      "version": "1.11.0.1",
+      "direct": false
+    },
+    {
+      "ecosystem": "NuGet",
+      "name": "Xamarin.KotlinX.Serialization.Protobuf.Jvm",
+      "version": "1.11.0.1",
+      "direct": false
     },
     {
       "ecosystem": "NuGet",

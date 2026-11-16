@@ -1,12 +1,12 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-15T21:15:26Z",
+  "checked": "2026-11-16T00:36:28Z",
   "refs": [
     {
       "ref": "main",
       "type": "branch",
-      "commit": "cfd2450",
-      "sent": "2026-11-15T21:13:39Z",
+      "commit": "62b8986",
+      "sent": "2026-11-16T00:36:00Z",
       "blocking": false,
       "findings": [],
       "updates": [
@@ -14,7 +14,7 @@
           "ecosystem": "NuGet",
           "package": "coverlet.collector",
           "version": "6.0.4",
-          "latest": "10.1.0"
+          "latest": "10.1.1"
         },
         {
           "ecosystem": "NuGet",
@@ -171,7 +171,7 @@
           "ecosystem": "NuGet",
           "package": "coverlet.collector",
           "version": "6.0.4",
-          "latest": "10.1.0"
+          "latest": "10.1.1"
         },
         {
           "ecosystem": "NuGet",
@@ -319,7 +319,7 @@
           "ecosystem": "NuGet",
           "package": "coverlet.collector",
           "version": "6.0.4",
-          "latest": "10.1.0"
+          "latest": "10.1.1"
         },
         {
           "ecosystem": "NuGet",
@@ -461,7 +461,7 @@
           "ecosystem": "NuGet",
           "package": "coverlet.collector",
           "version": "6.0.4",
-          "latest": "10.1.0"
+          "latest": "10.1.1"
         },
         {
           "ecosystem": "NuGet",
@@ -603,7 +603,7 @@
           "ecosystem": "NuGet",
           "package": "coverlet.collector",
           "version": "6.0.4",
-          "latest": "10.1.0"
+          "latest": "10.1.1"
         },
         {
           "ecosystem": "NuGet",
