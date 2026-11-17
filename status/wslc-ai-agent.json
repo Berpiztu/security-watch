@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-16T13:46:05Z",
+  "checked": "2026-11-17T14:36:31Z",
   "refs": [
     {
       "ref": "main",
@@ -98,7 +98,7 @@
           "ecosystem": "NuGet",
           "package": "MudBlazor",
           "version": "9.10.0",
-          "latest": "9.13.0"
+          "latest": "9.14.0"
         },
         {
           "ecosystem": "NuGet",
@@ -255,7 +255,7 @@
           "ecosystem": "NuGet",
           "package": "MudBlazor",
           "version": "9.10.0",
-          "latest": "9.13.0"
+          "latest": "9.14.0"
         },
         {
           "ecosystem": "NuGet",
@@ -403,7 +403,7 @@
           "ecosystem": "NuGet",
           "package": "MudBlazor",
           "version": "9.10.0",
-          "latest": "9.13.0"
+          "latest": "9.14.0"
         },
         {
           "ecosystem": "NuGet",
@@ -545,7 +545,7 @@
           "ecosystem": "NuGet",
           "package": "MudBlazor",
           "version": "9.10.0",
-          "latest": "9.13.0"
+          "latest": "9.14.0"
         },
         {
           "ecosystem": "NuGet",
@@ -687,7 +687,7 @@
           "ecosystem": "NuGet",
           "package": "MudBlazor",
           "version": "9.10.0",
-          "latest": "9.13.0"
+          "latest": "9.14.0"
         },
         {
           "ecosystem": "NuGet",

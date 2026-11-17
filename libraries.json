@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T13:46:05Z",
+  "checked": "2026-11-17T14:36:31Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1689,7 +1689,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.OpenApi",
       "version": "2.12.2",
-      "latest": "3.11.0",
+      "latest": "3.11.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -1699,7 +1699,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.OpenApi",
       "version": "2.13.0",
-      "latest": "3.11.0",
+      "latest": "3.11.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@main",
@@ -1978,7 +1978,7 @@
       "ecosystem": "NuGet",
       "name": "MudBlazor",
       "version": "9.10.0",
-      "latest": "9.13.0",
+      "latest": "9.14.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
