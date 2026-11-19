@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T14:13:26Z",
+  "checked": "2026-11-19T14:30:34Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -1712,7 +1712,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Playwright",
       "version": "1.62.0",
-      "latest": "1.65.0",
+      "latest": "1.65.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
