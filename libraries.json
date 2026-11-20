@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19T14:30:34Z",
+  "checked": "2026-11-20T14:07:44Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -70,7 +70,7 @@
       "ecosystem": "NuGet",
       "name": "GoogleGson",
       "version": "2.13.1.1",
-      "latest": "2.14.0.1",
+      "latest": "2.15.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -1782,7 +1782,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Windows.SDK.BuildTools.MSIX",
       "version": "1.7.20250829.1",
-      "latest": "1.7.261102100",
+      "latest": "1.7.261119100",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -2386,7 +2386,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Collection",
       "version": "1.6.0.1",
-      "latest": "1.6.0.1",
+      "latest": "1.7.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2396,7 +2396,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Collection.Jvm",
       "version": "1.6.0.1",
-      "latest": "1.6.0.1",
+      "latest": "1.7.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2406,7 +2406,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Collection.Ktx",
       "version": "1.6.0.1",
-      "latest": "1.6.0.1",
+      "latest": "1.7.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -2540,7 +2540,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2550,7 +2550,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Android",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2560,7 +2560,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Core",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2570,7 +2570,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Core.Android",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2580,7 +2580,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Core.Jvm",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2590,7 +2590,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Core.OkIO",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2600,7 +2600,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Core.OkIO.Jvm",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2610,7 +2610,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2620,7 +2620,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences.Android",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2630,7 +2630,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences.Core",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2640,7 +2640,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences.Core.Android",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2650,7 +2650,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences.External.Protobuf",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -2660,7 +2660,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.DataStore.Preferences.Proto",
       "version": "1.2.1.1",
-      "latest": "1.2.1.1",
+      "latest": "1.3.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3016,7 +3016,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.NavigationEvent",
       "version": "1.1.2.1",
-      "latest": "1.1.2.1",
+      "latest": "1.2.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3026,7 +3026,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.NavigationEvent.Android",
       "version": "1.1.2.1",
-      "latest": "1.1.2.1",
+      "latest": "1.2.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3146,7 +3146,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Tracing.Tracing",
       "version": "2.0.0",
-      "latest": "2.0.3",
+      "latest": "2.0.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3156,7 +3156,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.AndroidX.Tracing.Tracing.Android",
       "version": "2.0.0",
-      "latest": "2.0.3",
+      "latest": "2.0.5",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3296,7 +3296,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Datatransport",
       "version": "120.0.1.4",
-      "latest": "120.0.1.4",
+      "latest": "121.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3306,7 +3306,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Encoders",
       "version": "117.0.0.26",
-      "latest": "117.0.0.26",
+      "latest": "118.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3316,7 +3316,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Encoders.JSON",
       "version": "118.0.1.19",
-      "latest": "118.0.1.19",
+      "latest": "119.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3326,7 +3326,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Encoders.Proto",
       "version": "116.0.0.21",
-      "latest": "116.0.0.21",
+      "latest": "117.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3346,7 +3346,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Installations",
       "version": "119.1.2.1",
-      "latest": "119.1.2.1",
+      "latest": "120.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3356,7 +3356,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Installations.InterOp",
       "version": "117.3.0.3",
-      "latest": "117.3.0.3",
+      "latest": "118.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3366,7 +3366,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Measurement.Connector",
       "version": "120.0.1.15",
-      "latest": "120.0.1.15",
+      "latest": "124.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3376,7 +3376,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Firebase.Messaging",
       "version": "125.1.3",
-      "latest": "125.1.3",
+      "latest": "126.0.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -3390,7 +3390,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Google.Android.DataTransport.TransportApi",
       "version": "4.1.1.1",
-      "latest": "4.1.1.1",
+      "latest": "5.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3400,7 +3400,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Google.Android.DataTransport.TransportBackendCct",
       "version": "4.1.1.2",
-      "latest": "4.1.1.2",
+      "latest": "5.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3410,7 +3410,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Google.Android.DataTransport.TransportRuntime",
       "version": "4.1.1.1",
-      "latest": "4.1.1.1",
+      "latest": "5.0.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3440,7 +3440,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Google.Crypto.Tink.Android",
       "version": "1.18.0.1",
-      "latest": "1.23.0",
+      "latest": "1.24.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3450,7 +3450,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Google.ErrorProne.Annotations",
       "version": "2.50.0.1",
-      "latest": "2.50.0.1",
+      "latest": "2.52.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3470,7 +3470,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.GooglePlayServices.Base",
       "version": "118.10.1",
-      "latest": "118.11.0",
+      "latest": "118.11.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3550,7 +3550,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Kotlin.StdLib",
       "version": "2.4.0.1",
-      "latest": "2.4.0.1",
+      "latest": "2.4.21",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3560,7 +3560,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Kotlin.StdLib.Jdk7",
       "version": "2.4.0.1",
-      "latest": "2.4.0.1",
+      "latest": "2.4.21",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3570,7 +3570,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.Kotlin.StdLib.Jdk8",
       "version": "2.4.0.1",
-      "latest": "2.4.0.1",
+      "latest": "2.4.21",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3640,7 +3640,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Core",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3650,7 +3650,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Core.Jvm",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3660,7 +3660,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Json",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3670,7 +3670,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Json.Jvm",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3680,7 +3680,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Protobuf",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
@@ -3690,7 +3690,7 @@
       "ecosystem": "NuGet",
       "name": "Xamarin.KotlinX.Serialization.Protobuf.Jvm",
       "version": "1.11.0.1",
-      "latest": "1.11.0.1",
+      "latest": "1.12.0",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop"
