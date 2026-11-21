@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T14:07:44Z",
+  "checked": "2026-11-21T13:33:25Z",
   "libraries": [
     {
       "ecosystem": "dotnet-sdk",
@@ -435,7 +435,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Extensions.AI.Abstractions",
       "version": "10.8.3",
-      "latest": "11.0.0",
+      "latest": "11.0.1",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
@@ -1754,7 +1754,7 @@
       "ecosystem": "NuGet",
       "name": "Microsoft.Web.WebView2",
       "version": "1.0.3179.45",
-      "latest": "1.0.4314.35",
+      "latest": "1.0.4370.26",
       "vulnerabilities": [],
       "usedBy": [
         "wslc-ai-agent@develop",
