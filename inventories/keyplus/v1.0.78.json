@@ -1,9 +1,9 @@
 {
   "project": "keyplus",
-  "ref": "v1.0.75",
+  "ref": "v1.0.78",
   "type": "release",
-  "commit": "1928109",
-  "sent": "2026-11-07T12:21:06Z",
+  "commit": "7efcdd4",
+  "sent": "2026-11-23T18:00:24Z",
   "packages": [
     {
       "ecosystem": "NuGet",
@@ -32,7 +32,7 @@
     {
       "ecosystem": "NuGet",
       "name": "Microsoft.NET.ILLink.Tasks",
-      "version": "10.0.14",
+      "version": "10.0.15",
       "direct": false
     },
     {
@@ -96,6 +96,6 @@
       "direct": true
     }
   ],
-  "dotnetSdk": "10.0.403",
+  "dotnetSdk": "10.0.404",
   "images": []
 }
