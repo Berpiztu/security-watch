@@ -1,6 +1,6 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-22T13:26:32Z",
+  "checked": "2026-11-23T16:07:42Z",
   "refs": [
     {
       "ref": "main",
@@ -146,7 +146,7 @@
           "ecosystem": "PyPI",
           "package": "redis",
           "version": "5.0.8",
-          "latest": "8.1.0"
+          "latest": "8.2.0"
         }
       ],
       "images": [
@@ -315,7 +315,7 @@
           "ecosystem": "PyPI",
           "package": "redis",
           "version": "5.0.8",
-          "latest": "8.1.0"
+          "latest": "8.2.0"
         },
         {
           "ecosystem": "dotnet-sdk",
@@ -475,7 +475,7 @@
           "ecosystem": "PyPI",
           "package": "redis",
           "version": "5.0.8",
-          "latest": "8.1.0"
+          "latest": "8.2.0"
         }
       ],
       "images": [
@@ -629,7 +629,7 @@
           "ecosystem": "PyPI",
           "package": "redis",
           "version": "5.0.8",
-          "latest": "8.1.0"
+          "latest": "8.2.0"
         }
       ],
       "images": [
@@ -783,7 +783,7 @@
           "ecosystem": "PyPI",
           "package": "redis",
           "version": "5.0.8",
-          "latest": "8.1.0"
+          "latest": "8.2.0"
         }
       ],
       "images": [
