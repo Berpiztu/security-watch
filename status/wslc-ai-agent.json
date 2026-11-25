@@ -1,12 +1,12 @@
 {
   "project": "wslc-ai-agent",
-  "checked": "2026-11-24T15:58:37Z",
+  "checked": "2026-11-25T03:52:37Z",
   "refs": [
     {
       "ref": "main",
       "type": "branch",
-      "commit": "4855b29",
-      "sent": "2026-11-16T00:42:59Z",
+      "commit": "ea7e0dc",
+      "sent": "2026-11-25T03:52:11Z",
       "blocking": false,
       "findings": [],
       "updates": [
